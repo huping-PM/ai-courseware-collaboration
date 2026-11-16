@@ -1,0 +1,1262 @@
+{
+  "date": "2026-09-28",
+  "scope": "本地原型状态出图与布局检查，不替代真实业务系统验收",
+  "states": 67,
+  "rawImages": 67,
+  "annotatedImages": 67,
+  "errors": [],
+  "badResponses": [],
+  "records": [
+    {
+      "id": "PG11-S01",
+      "title": "初始会话 · 无成果",
+      "requirement": "I01",
+      "metrics": {
+        "state": "PG11-S01",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S01",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG11-S02",
+      "title": "任务创作 · 五区工作台",
+      "requirement": "I01 / I07",
+      "metrics": {
+        "state": "PG11-S02",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S02",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 75
+      }
+    },
+    {
+      "id": "PG11-S03",
+      "title": "窄窗口 · 会话抽屉",
+      "requirement": "I01",
+      "metrics": {
+        "state": "PG11-S03",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S03",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 62
+      }
+    },
+    {
+      "id": "PG11-S04",
+      "title": "后台会话完成",
+      "requirement": "I01 / I05",
+      "metrics": {
+        "state": "PG11-S04",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S04",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S05",
+      "title": "画布全屏",
+      "requirement": "I01",
+      "metrics": {
+        "state": "PG11-S05",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S05",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 44
+      }
+    },
+    {
+      "id": "PG11-S06",
+      "title": "Markdown · 已保存预览",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S06",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S06",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 75
+      }
+    },
+    {
+      "id": "PG11-S07",
+      "title": "Markdown · 源码未保存",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S07",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S07",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 60
+      }
+    },
+    {
+      "id": "PG11-S08",
+      "title": "Markdown · 离开确认",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S08",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 266.375
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S08",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 59
+      }
+    },
+    {
+      "id": "PG11-S09",
+      "title": "Markdown · 保存失败",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S09",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S09",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 58
+      }
+    },
+    {
+      "id": "PG11-S10",
+      "title": "Markdown · 版本冲突",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S10",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S10",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG11-S11",
+      "title": "Markdown · AI修改候选",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S11",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S11",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 67
+      }
+    },
+    {
+      "id": "PG11-S12",
+      "title": "Markdown · 版本历史",
+      "requirement": "I02",
+      "metrics": {
+        "state": "PG11-S12",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S12",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S13",
+      "title": "图片 · 矩形区域选择",
+      "requirement": "I03",
+      "metrics": {
+        "state": "PG11-S13",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S13",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 65
+      }
+    },
+    {
+      "id": "PG11-S14",
+      "title": "图片 · 已锚定消息",
+      "requirement": "I03",
+      "metrics": {
+        "state": "PG11-S14",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S14",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG11-S15",
+      "title": "图片 · 原图暂不可定位",
+      "requirement": "I03 / I08",
+      "metrics": {
+        "state": "PG11-S15",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S15",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 57
+      }
+    },
+    {
+      "id": "PG11-S16",
+      "title": "技能 · 明确沉淀意图",
+      "requirement": "I04",
+      "metrics": {
+        "state": "PG11-S16",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S16",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG11-S17",
+      "title": "技能 · 编辑完整草稿",
+      "requirement": "I04",
+      "metrics": {
+        "state": "PG11-S17",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S17",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 70
+      }
+    },
+    {
+      "id": "PG11-S18",
+      "title": "技能 · 确认项目共享",
+      "requirement": "I04",
+      "metrics": {
+        "state": "PG11-S18",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 371.171875
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S18",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG11-S19",
+      "title": "技能 · 解析失败",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG11-S19",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S19",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S20",
+      "title": "技能 · 已有技能更新申请",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG11-S20",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S20",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 62
+      }
+    },
+    {
+      "id": "PG11-S21",
+      "title": "媒体 · 识别生图意图并执行",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S21",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S21",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 65
+      }
+    },
+    {
+      "id": "PG11-S22",
+      "title": "媒体 · 图片成功",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S22",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S22",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 63
+      }
+    },
+    {
+      "id": "PG11-S23",
+      "title": "媒体 · 视频缺图澄清",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S23",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S23",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S24",
+      "title": "媒体 · 视频生成中",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S24",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S24",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 56
+      }
+    },
+    {
+      "id": "PG11-S25",
+      "title": "媒体 · 视频不可用",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S25",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S25",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 58
+      }
+    },
+    {
+      "id": "PG11-S19-success",
+      "title": "技能 · 已保存并启用",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG11-S19-success",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S19-success",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S22-failed",
+      "title": "媒体 · 图片生成失败",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S22-failed",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S22-failed",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 63
+      }
+    },
+    {
+      "id": "PG11-S23-multiple",
+      "title": "媒体 · 多图选择澄清",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S23-multiple",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S23-multiple",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG11-S24-success",
+      "title": "媒体 · 视频可播放结果",
+      "requirement": "I05",
+      "metrics": {
+        "state": "PG11-S24-success",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S24-success",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 56
+      }
+    },
+    {
+      "id": "PG11-S06-readonly",
+      "title": "审核查看 · 固定文档版本只读",
+      "requirement": "I02 / I07 / I08",
+      "metrics": {
+        "state": "PG11-S06-readonly",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG11-S06-readonly",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 92
+      }
+    },
+    {
+      "id": "PG13-S01",
+      "title": "项目技能 · 混合列表",
+      "requirement": "I04 / I06 / I08",
+      "metrics": {
+        "state": "PG13-S01",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S01",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 78
+      }
+    },
+    {
+      "id": "PG13-S01-global",
+      "title": "全局技能 · 项目内只读",
+      "requirement": "I06 / I08",
+      "metrics": {
+        "state": "PG13-S01-global",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S01-global",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG13-S02",
+      "title": "对话创建技能详情",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG13-S02",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S02",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 72
+      }
+    },
+    {
+      "id": "PG13-S03",
+      "title": "技能解析失败",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG13-S03",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S03",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG13-S04",
+      "title": "技能更新申请审核",
+      "requirement": "I04 / I06 / I08",
+      "metrics": {
+        "state": "PG13-S04",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S04",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 77
+      }
+    },
+    {
+      "id": "PG13-S05",
+      "title": "更新申请已通过",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG13-S05",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S05",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 71
+      }
+    },
+    {
+      "id": "PG13-S05-rejected",
+      "title": "更新申请已驳回",
+      "requirement": "I04 / I06",
+      "metrics": {
+        "state": "PG13-S05-rejected",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S05-rejected",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 54
+      }
+    },
+    {
+      "id": "PG13-S01-disabled",
+      "title": "项目技能已停用",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG13-S01-disabled",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG13-S01-disabled",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 63
+      }
+    },
+    {
+      "id": "PG18-S01",
+      "title": "全局技能库",
+      "requirement": "I06 / I08",
+      "metrics": {
+        "state": "PG18-S01",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG18-S01-new",
+      "title": "新增全局技能",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG18-S01-new",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 708.9375
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01-new",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 76
+      }
+    },
+    {
+      "id": "PG18-S01-edit",
+      "title": "编辑全局技能",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG18-S01-edit",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 708.9375
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01-edit",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 53
+      }
+    },
+    {
+      "id": "PG18-S01-toggle",
+      "title": "确认停用全局技能",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG18-S01-toggle",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 291.1875
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01-toggle",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG18-S01-disabled",
+      "title": "全局技能已停用",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG18-S01-disabled",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01-disabled",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 53
+      }
+    },
+    {
+      "id": "PG18-S01-parsing",
+      "title": "全局技能解析中",
+      "requirement": "I06",
+      "metrics": {
+        "state": "PG18-S01-parsing",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 508
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG18-S01-parsing",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 63
+      }
+    },
+    {
+      "id": "PG19-S01",
+      "title": "管理员 · 全部任务",
+      "requirement": "I07 / I08",
+      "metrics": {
+        "state": "PG19-S01",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S01",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 68
+      }
+    },
+    {
+      "id": "PG19-S02",
+      "title": "成员 · 我的任务",
+      "requirement": "I07 / I08",
+      "metrics": {
+        "state": "PG19-S02",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S02",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 57
+      }
+    },
+    {
+      "id": "PG19-S03",
+      "title": "新建制作任务",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S03",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S03",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 77
+      }
+    },
+    {
+      "id": "PG19-S03-edit",
+      "title": "编辑与改派任务",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S03-edit",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S03-edit",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG19-S03-draft",
+      "title": "任务已保存草稿",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S03-draft",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S03-draft",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 59
+      }
+    },
+    {
+      "id": "PG19-S04",
+      "title": "任务详情 · 成员创作入口",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S04",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S04",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 70
+      }
+    },
+    {
+      "id": "PG19-S04-admin",
+      "title": "任务详情 · 管理员查看",
+      "requirement": "I07 / I08",
+      "metrics": {
+        "state": "PG19-S04-admin",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S04-admin",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 60
+      }
+    },
+    {
+      "id": "PG19-S05",
+      "title": "选择固定成果提交审核",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S05",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 800
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S05",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 90
+      }
+    },
+    {
+      "id": "PG19-S06",
+      "title": "审核固定提交包",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S06",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S06",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 64
+      }
+    },
+    {
+      "id": "PG19-S07",
+      "title": "待修改 · 查看退回意见",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S07",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S07",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 67
+      }
+    },
+    {
+      "id": "PG19-S08",
+      "title": "任务已完成",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S08",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S08",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG19-S08-archive",
+      "title": "确认归档任务",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S08-archive",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 291.1875
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S08-archive",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 55
+      }
+    },
+    {
+      "id": "PG19-S08-archived",
+      "title": "任务已归档",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S08-archived",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S08-archived",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 56
+      }
+    },
+    {
+      "id": "PG19-S08-cancel",
+      "title": "填写取消原因",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S08-cancel",
+        "horizontalOverflow": false,
+        "modal": [
+          {
+            "inside": true,
+            "height": 354.1875
+          }
+        ],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S08-cancel",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 66
+      }
+    },
+    {
+      "id": "PG19-S08-cancelled",
+      "title": "任务已取消",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S08-cancelled",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S08-cancelled",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 53
+      }
+    },
+    {
+      "id": "PG19-S09",
+      "title": "任务列表 · 无任务",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S09",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S09",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 47
+      }
+    },
+    {
+      "id": "PG19-S09-empty",
+      "title": "任务列表 · 筛选无结果",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S09-empty",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S09-empty",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 49
+      }
+    },
+    {
+      "id": "PG19-S09-failed",
+      "title": "任务列表 · 加载失败",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S09-failed",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S09-failed",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 43
+      }
+    },
+    {
+      "id": "PG19-S09-loading",
+      "title": "任务列表 · 加载中",
+      "requirement": "I07",
+      "metrics": {
+        "state": "PG19-S09-loading",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "PG19-S09-loading",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 48
+      }
+    },
+    {
+      "id": "AUTH-S01",
+      "title": "无权访问项目",
+      "requirement": "I08",
+      "metrics": {
+        "state": "AUTH-S01",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "AUTH-S01",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 67
+      }
+    },
+    {
+      "id": "AUTH-S02",
+      "title": "保存时访问权限变化",
+      "requirement": "I08",
+      "metrics": {
+        "state": "AUTH-S02",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "AUTH-S02",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 78
+      }
+    },
+    {
+      "id": "AUTH-S03",
+      "title": "任务改派后访问受限",
+      "requirement": "I07 / I08",
+      "metrics": {
+        "state": "AUTH-S03",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "AUTH-S03",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 68
+      }
+    },
+    {
+      "id": "AUTH-S04",
+      "title": "素材或技能访问受限",
+      "requirement": "I06 / I08",
+      "metrics": {
+        "state": "AUTH-S04",
+        "horizontalOverflow": false,
+        "modal": [],
+        "badTargets": []
+      },
+      "note": {
+        "state": "AUTH-S04",
+        "right": true,
+        "top": true,
+        "height": 900,
+        "text": 69
+      }
+    }
+  ]
+}

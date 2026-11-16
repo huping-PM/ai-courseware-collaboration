@@ -1,0 +1,51 @@
+[
+  {
+    "name": "01_初始状态",
+    "nodeId": "3:2",
+    "url": "https://www.figma.com/api/mcp/asset/da0b34eb-65af-4796-9c3d-635e5cbe148c.png",
+    "format": "png",
+    "sizeBytes": 57107
+  },
+  {
+    "name": "02_协作状态_文档",
+    "nodeId": "6:2",
+    "url": "https://www.figma.com/api/mcp/asset/fee70aec-eea6-4544-81f1-39d05fc22213.png",
+    "format": "png",
+    "sizeBytes": 127481
+  },
+  {
+    "name": "03_协作状态_图片",
+    "nodeId": "5:2",
+    "url": "https://www.figma.com/api/mcp/asset/422311a2-bb71-47a3-a04e-a5b110e88a2d.png",
+    "format": "png",
+    "sizeBytes": 123551
+  },
+  {
+    "name": "04_协作状态_视频",
+    "nodeId": "4:2",
+    "url": "https://www.figma.com/api/mcp/asset/0a97e7f5-b8ab-4b59-b68c-3b7249767225.png",
+    "format": "png",
+    "sizeBytes": 125047
+  },
+  {
+    "name": "05_历史会话筛选",
+    "nodeId": "8:2",
+    "url": "https://www.figma.com/api/mcp/asset/79a2bea8-0377-45d7-82d5-5d4839052943.png",
+    "format": "png",
+    "sizeBytes": 141816
+  },
+  {
+    "name": "06_保存至资源库",
+    "nodeId": "7:2",
+    "url": "https://www.figma.com/api/mcp/asset/1bf4051f-9d2e-47f5-8d1f-b66f432f174c.png",
+    "format": "png",
+    "sizeBytes": 119650
+  },
+  {
+    "name": "07_保存成功",
+    "nodeId": "9:2",
+    "url": "https://www.figma.com/api/mcp/asset/37234622-eb92-4621-affa-df1cd71ccb2f.png",
+    "format": "png",
+    "sizeBytes": 131420
+  }
+]

@@ -1,0 +1,187 @@
+{
+  "date": "2026-09-15",
+  "sourceSha256": "d6eb7f40185f38bb947addf7a47260c5f28383e7d50779855c4722ff2cdf75f4",
+  "fileKey": "EjC3IegY9kqwAAmg5M5mrR",
+  "pairs": [
+    {
+      "key": "01",
+      "id": "38:331",
+      "noteId": "38:332",
+      "originalId": "3:2",
+      "width": 1768,
+      "height": 904,
+      "noteHeight": 904
+    },
+    {
+      "key": "02",
+      "id": "38:342",
+      "noteId": "38:343",
+      "originalId": "6:2",
+      "width": 1768,
+      "height": 904,
+      "noteHeight": 904
+    },
+    {
+      "key": "03",
+      "id": "38:353",
+      "noteId": "38:354",
+      "originalId": "5:2",
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 638
+    },
+    {
+      "key": "04",
+      "id": "38:362",
+      "noteId": "38:363",
+      "originalId": "4:2",
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 716
+    },
+    {
+      "key": "05",
+      "id": "38:371",
+      "noteId": "38:372",
+      "originalId": "8:2",
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 716
+    },
+    {
+      "key": "06",
+      "id": "38:380",
+      "noteId": "38:381",
+      "originalId": "7:2",
+      "width": 1768,
+      "height": 742,
+      "noteHeight": 742
+    },
+    {
+      "key": "07",
+      "id": "38:389",
+      "noteId": "38:390",
+      "originalId": "9:2",
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 638
+    }
+  ],
+  "figmaChecks": [
+    {
+      "key": "01",
+      "pairId": "38:331",
+      "noteId": "38:332",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 982,
+      "noteHeight": 982
+    },
+    {
+      "key": "02",
+      "pairId": "38:342",
+      "noteId": "38:343",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 904,
+      "noteHeight": 904
+    },
+    {
+      "key": "03",
+      "pairId": "38:353",
+      "noteId": "38:354",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 638
+    },
+    {
+      "key": "04",
+      "pairId": "38:362",
+      "noteId": "38:363",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 716
+    },
+    {
+      "key": "05",
+      "pairId": "38:371",
+      "noteId": "38:372",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 716
+    },
+    {
+      "key": "06",
+      "pairId": "38:380",
+      "noteId": "38:381",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 742,
+      "noteHeight": 742
+    },
+    {
+      "key": "07",
+      "pairId": "38:389",
+      "noteId": "38:390",
+      "textMatches": true,
+      "originalSize": [
+        1280,
+        720
+      ],
+      "rightAligned": true,
+      "topAligned": true,
+      "textFits": true,
+      "width": 1768,
+      "height": 720,
+      "noteHeight": 612
+    }
+  ],
+  "browserChecks": "7/7图像加载，1280px原尺寸，说明位于右侧且顶对齐，无文字溢出；已观察浏览器实际截图。",
+  "previousSourceSha256": "a838adcd7e201c1e41fa058e1b3a086c50e14eeef2e20b9dfa02d36df2afad44",
+  "scopeNote": "2026-09-15正文追加初始态试验段；原01—07旁注文字未改，本记录仅覆盖原七个主状态。初始态试验见子目录独立核验。"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程文稿硬校验"
+  short_description: "在审核和分镜前拦截角色、结构、题目与来源问题"
+  default_prompt: "使用 $course-manuscript-validation 校验这份课程文稿草稿。"

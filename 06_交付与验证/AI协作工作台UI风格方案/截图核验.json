@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-28",
+  "records": [
+    {
+      "id": "a-workspace",
+      "title": "静谧书桌 · 内容协作 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 840
+    },
+    {
+      "id": "a-resources",
+      "title": "静谧书桌 · 资源管理 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 535
+    },
+    {
+      "id": "a-agents",
+      "title": "静谧书桌 · 智能体配置 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 531
+    },
+    {
+      "id": "b-workspace",
+      "title": "灵感工作室 · 内容协作 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 805
+    },
+    {
+      "id": "b-resources",
+      "title": "灵感工作室 · 资源管理 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 582
+    },
+    {
+      "id": "b-agents",
+      "title": "灵感工作室 · 智能体配置 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 590
+    },
+    {
+      "id": "c-workspace",
+      "title": "专业协作舱 · 内容协作 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 893
+    },
+    {
+      "id": "c-resources",
+      "title": "专业协作舱 · 资源管理 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 535
+    },
+    {
+      "id": "c-agents",
+      "title": "专业协作舱 · 智能体配置 · AI协作",
+      "horizontalOverflow": false,
+      "bodyTextLength": 531
+    },
+    {
+      "id": "b-media",
+      "horizontalOverflow": false
+    },
+    {
+      "id": "b-filter-doc",
+      "horizontalOverflow": false
+    },
+    {
+      "id": "b-filter-image",
+      "horizontalOverflow": false
+    },
+    {
+      "id": "b-filter-video",
+      "horizontalOverflow": false
+    },
+    {
+      "id": "b-task-empty",
+      "horizontalOverflow": false
+    },
+    {
+      "id": "host",
+      "horizontalOverflow": false
+    }
+  ],
+  "errors": [],
+  "failed": [],
+  "badLinks": []
+}

@@ -1,0 +1,40 @@
+{
+  "updatedAt": "2026-09-20",
+  "fileKey": "EjC3IegY9kqwAAmg5M5mrR",
+  "canvas": "89:549",
+  "scope": "PG13 技能管理 18个原有状态",
+  "exportDirectory": "技能管理/",
+  "visualRules": {
+    "columns": ["技能名称", "技能类型", "技能说明", "状态", "最近更新时间", "操作"],
+    "globalSkills": "项目内仅查看，状态同步全局",
+    "projectSkills": "仅所属项目可编辑、启停和删除"
+  },
+  "examples": [
+    "培训视频编写规范（全局技能，启用）",
+    "安全术语检查（全局技能，启用）",
+    "分镜草稿生成（全局技能，启用）",
+    "字幕格式检查（全局技能，停用）",
+    "岗位培训脚本编写（项目专属，启用）",
+    "项目视频片尾规范（项目专属，停用）"
+  ],
+  "states": [
+    {"id":"SKILL-01","section":"115:1792","screen":"115:1793","note":"115:1991","file":"SKILL-01_技能列表.png"},
+    {"id":"SKILL-02","section":"91:1563","screen":"91:1564","file":"SKILL-02_新增技能.png"},
+    {"id":"SKILL-03","section":"115:1993","screen":"115:1994","file":"SKILL-03_文件读取后自动填充.png"},
+    {"id":"SKILL-04","section":"117:1762","screen":"117:1763","file":"SKILL-04_文件校验失败.png"},
+    {"id":"SKILL-05","section":"91:1810","screen":"91:1811","file":"SKILL-05_技能解析中.png"},
+    {"id":"SKILL-06","section":"117:2011","screen":"117:2012","file":"SKILL-06_技能详情.png"},
+    {"id":"SKILL-07","section":"91:2011","screen":"91:2012","file":"SKILL-07_编辑技能.png"},
+    {"id":"SKILL-08","section":"92:1514","screen":"92:1515","file":"SKILL-08_未保存关闭保护.png"},
+    {"id":"SKILL-09","section":"92:1776","screen":"92:1777","file":"SKILL-09_停用确认.png"},
+    {"id":"SKILL-10","section":"92:1996","screen":"92:1997","file":"SKILL-10_启用确认.png"},
+    {"id":"SKILL-11","section":"92:2216","screen":"92:2217","file":"SKILL-11_删除引用保护.png"},
+    {"id":"SKILL-12","section":"93:1230","screen":"93:1231","file":"SKILL-12_解析失败.png"},
+    {"id":"SKILL-13","section":"93:1477","screen":"93:1478","file":"SKILL-13_技能查询无结果.png"},
+    {"id":"SKILL-14","section":"93:1608","screen":"93:1609","file":"SKILL-14_暂无技能.png"},
+    {"id":"SKILL-15","section":"93:1739","screen":"93:1740","file":"SKILL-15_技能加载中.png"},
+    {"id":"SKILL-16","section":"115:2240","screen":"115:2241","file":"SKILL-16_技能加载失败.png"},
+    {"id":"SKILL-17","section":"93:1870","screen":"93:1871","file":"SKILL-17_技能只读.png"},
+    {"id":"SKILL-18","section":"115:2373","screen":"115:2374","file":"SKILL-18_提交失败保留表单.png"}
+  ]
+}

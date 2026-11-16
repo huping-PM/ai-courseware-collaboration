@@ -1,0 +1,126 @@
+{
+  "ffmpeg": "C:\\Users\\Administrator\\AppData\\Local\\Temp\\video-skill-verification-runtime\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+  "checkedScenes": 17,
+  "allPassed": true,
+  "scenes": [
+    {
+      "id": "P01",
+      "file": "P01.mp3",
+      "bytes": 111600,
+      "duration": 18.6,
+      "decode": "passed"
+    },
+    {
+      "id": "P02",
+      "file": "P02.mp3",
+      "bytes": 131472,
+      "duration": 21.91,
+      "decode": "passed"
+    },
+    {
+      "id": "P03",
+      "file": "P03.mp3",
+      "bytes": 125136,
+      "duration": 20.86,
+      "decode": "passed"
+    },
+    {
+      "id": "P04",
+      "file": "P04.mp3",
+      "bytes": 128592,
+      "duration": 21.43,
+      "decode": "passed"
+    },
+    {
+      "id": "P05",
+      "file": "P05.mp3",
+      "bytes": 50256,
+      "duration": 8.38,
+      "decode": "passed"
+    },
+    {
+      "id": "P06",
+      "file": "P06.mp3",
+      "bytes": 200880,
+      "duration": 33.48,
+      "decode": "passed"
+    },
+    {
+      "id": "P07",
+      "file": "P07.mp3",
+      "bytes": 240192,
+      "duration": 40.03,
+      "decode": "passed"
+    },
+    {
+      "id": "P08",
+      "file": "P08.mp3",
+      "bytes": 159408,
+      "duration": 26.57,
+      "decode": "passed"
+    },
+    {
+      "id": "P09",
+      "file": "P09.mp3",
+      "bytes": 166464,
+      "duration": 27.74,
+      "decode": "passed"
+    },
+    {
+      "id": "P10",
+      "file": "P10.mp3",
+      "bytes": 310896,
+      "duration": 51.82,
+      "decode": "passed"
+    },
+    {
+      "id": "P11",
+      "file": "P11.mp3",
+      "bytes": 191088,
+      "duration": 31.85,
+      "decode": "passed"
+    },
+    {
+      "id": "P12",
+      "file": "P12.mp3",
+      "bytes": 251136,
+      "duration": 41.86,
+      "decode": "passed"
+    },
+    {
+      "id": "P13",
+      "file": "P13.mp3",
+      "bytes": 310896,
+      "duration": 51.82,
+      "decode": "passed"
+    },
+    {
+      "id": "P14",
+      "file": "P14.mp3",
+      "bytes": 223488,
+      "duration": 37.25,
+      "decode": "passed"
+    },
+    {
+      "id": "P15",
+      "file": "P15.mp3",
+      "bytes": 262944,
+      "duration": 43.82,
+      "decode": "passed"
+    },
+    {
+      "id": "P16",
+      "file": "P16.mp3",
+      "bytes": 194544,
+      "duration": 32.42,
+      "decode": "passed"
+    },
+    {
+      "id": "P17",
+      "file": "P17.mp3",
+      "bytes": 161856,
+      "duration": 26.98,
+      "decode": "passed"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# Local credentials and runtime state (files remain on this computer)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.pfx
+*.p12
+credentials.json
+credentials.local.json
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+node_modules/
+__pycache__/
+*.py[cod]
+.superpowers/
+.workbuddy/
+/06_交付与验证/内容协作系统原型预览/局域网预览服务/logs/
+/06_交付与验证/内容协作系统原型预览/局域网预览服务/runtime/node.exe
+/06_交付与验证/内容协作系统原型预览/局域网预览服务/releases/
+/06_交付与验证/商业车险产品地图动画/tools/ffmpeg.exe
+/06_交付与验证/商业车险产品地图动画/tools/ffprobe.exe

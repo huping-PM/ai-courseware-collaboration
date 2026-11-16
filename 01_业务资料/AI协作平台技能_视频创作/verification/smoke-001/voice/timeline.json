@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "project_sha256": "7eaa6609e1e880cd546357c59308e81915831d1b5873c8292694994117144f70",
+  "fps": 25,
+  "sample_rate": 24000,
+  "tail": 0.3,
+  "pages": [
+    {
+      "id": "p01",
+      "audio": "audio/p01.wav",
+      "segments": [
+        {
+          "id": "s01",
+          "text": "测试口播文字1-1，音频为测试提示音。",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "id": "s02",
+          "text": "测试口播文字1-2，音频为测试提示音。",
+          "start": 0.5,
+          "end": 0.9
+        }
+      ],
+      "narration_end": 0.9,
+      "audio_duration": 0.9,
+      "duration": 1.2,
+      "frames": 30
+    },
+    {
+      "id": "p02",
+      "audio": "audio/p02.wav",
+      "segments": [
+        {
+          "id": "s01",
+          "text": "测试口播文字2-1，音频为测试提示音。",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "id": "s02",
+          "text": "测试口播文字2-2，音频为测试提示音。",
+          "start": 0.5,
+          "end": 0.9
+        }
+      ],
+      "narration_end": 0.9,
+      "audio_duration": 0.9,
+      "duration": 1.2,
+      "frames": 30
+    }
+  ]
+}

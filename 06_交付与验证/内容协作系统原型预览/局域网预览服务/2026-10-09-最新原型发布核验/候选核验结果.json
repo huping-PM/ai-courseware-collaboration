@@ -1,0 +1,196 @@
+{
+  "date": "2026-10-09",
+  "revision": "D074",
+  "records": [
+    {
+      "name": "无选择不可确认",
+      "passed": true
+    },
+    {
+      "name": "四类型保留",
+      "passed": true
+    },
+    {
+      "name": "具体文件多选",
+      "passed": true
+    },
+    {
+      "name": "搜索隐藏不清空选择",
+      "passed": true
+    },
+    {
+      "name": "分类多选且不转换为文件",
+      "passed": true
+    },
+    {
+      "name": "文件与父子分类重叠去重",
+      "passed": true
+    },
+    {
+      "name": "分类勾选不更改浏览",
+      "passed": true
+    },
+    {
+      "name": "分类浏览只显示该分类",
+      "passed": true
+    },
+    {
+      "name": "浏览不改变勾选",
+      "passed": true
+    },
+    {
+      "name": "跨类型保留文件及分类",
+      "passed": true
+    },
+    {
+      "name": "分类覆盖不勾选其他文件",
+      "passed": true
+    },
+    {
+      "name": "切回恢复文件勾选",
+      "passed": true
+    },
+    {
+      "name": "六个独立引用标签",
+      "passed": true
+    },
+    {
+      "name": "重开恢复全部选择",
+      "passed": true
+    },
+    {
+      "name": "取消不修改草稿",
+      "passed": true
+    },
+    {
+      "name": "确认替换草稿",
+      "passed": true
+    },
+    {
+      "name": "删除分类保留独立文件",
+      "passed": true
+    },
+    {
+      "name": "删除文件仍保留分类",
+      "passed": true
+    },
+    {
+      "name": "会话隔离",
+      "passed": true
+    },
+    {
+      "name": "返回恢复引用对象",
+      "passed": true
+    },
+    {
+      "name": "发送清空草稿",
+      "passed": true
+    },
+    {
+      "name": "发送保留结构化分类对象",
+      "passed": true
+    },
+    {
+      "name": "发送有文件快照及去重集合",
+      "passed": true
+    },
+    {
+      "name": "发送保留项目会话及模拟标记",
+      "passed": true
+    },
+    {
+      "name": "消息分开展示文件和分类",
+      "passed": true
+    },
+    {
+      "name": "发送payload不串会话",
+      "passed": true
+    },
+    {
+      "name": "模拟异步结束不串消息",
+      "passed": true
+    },
+    {
+      "name": "返回恢复发送payload",
+      "passed": true
+    },
+    {
+      "name": "兼容D073单分类",
+      "passed": true
+    },
+    {
+      "name": "兼容旧逐文件引用",
+      "passed": true
+    },
+    {
+      "name": "旧逐文件重开仍可勾选",
+      "passed": true
+    },
+    {
+      "name": "可通过标签清空全部引用",
+      "passed": true
+    },
+    {
+      "name": "旧入口只引用单文件",
+      "passed": true
+    },
+    {
+      "name": "键盘空格勾选分类",
+      "passed": true
+    },
+    {
+      "name": "键盘取消分类且焦点保留",
+      "passed": true
+    },
+    {
+      "name": "键盘勾选文件",
+      "passed": true
+    },
+    {
+      "name": "空分类可以确认且读取0",
+      "passed": true
+    },
+    {
+      "name": "空分类标签显示暂无内容",
+      "passed": true
+    },
+    {
+      "name": "发送空分类保持对象和空快照",
+      "passed": true
+    },
+    {
+      "name": "资源管理新样式加载",
+      "passed": true
+    },
+    {
+      "name": "管理样式依赖加载",
+      "passed": true
+    },
+    {
+      "name": "智能体配置新增技能弹窗",
+      "passed": true
+    },
+    {
+      "name": "提示词管理导航",
+      "passed": true
+    },
+    {
+      "name": "四类成果保留",
+      "passed": true
+    },
+    {
+      "name": "无脚本错误",
+      "passed": true
+    },
+    {
+      "name": "无加载失败",
+      "passed": true
+    },
+    {
+      "name": "无横向溢出",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

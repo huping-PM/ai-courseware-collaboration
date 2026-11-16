@@ -1,0 +1,695 @@
+[
+  {
+    "id": "PG07-01",
+    "filename": "PG07-01_图片资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 181684
+  },
+  {
+    "id": "PG07-02",
+    "filename": "PG07-02_文档资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 151499
+  },
+  {
+    "id": "PG07-03",
+    "filename": "PG07-03_音频资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 144333
+  },
+  {
+    "id": "PG07-04",
+    "filename": "PG07-04_视频资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 149567
+  },
+  {
+    "id": "PG07-05",
+    "filename": "PG07-05_上传资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 170887
+  },
+  {
+    "id": "PG07-06",
+    "filename": "PG07-06_上传队列与格式校验.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 184635
+  },
+  {
+    "id": "PG07-07",
+    "filename": "PG07-07_上传中.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 171841
+  },
+  {
+    "id": "PG07-08",
+    "filename": "PG07-08_上传部分失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 184087
+  },
+  {
+    "id": "PG07-09",
+    "filename": "PG07-09_放弃上传保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 186854
+  },
+  {
+    "id": "PG07-10",
+    "filename": "PG07-10_编辑资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 170620
+  },
+  {
+    "id": "PG07-11",
+    "filename": "PG07-11_编辑校验失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 166149
+  },
+  {
+    "id": "PG07-12",
+    "filename": "PG07-12_五级分类展开.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 159088
+  },
+  {
+    "id": "PG07-13",
+    "filename": "PG07-13_新增顶级分类.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 166285
+  },
+  {
+    "id": "PG07-14",
+    "filename": "PG07-14_新增子分类.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 174751
+  },
+  {
+    "id": "PG07-15",
+    "filename": "PG07-15_分类超过五级拦截.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 173919
+  },
+  {
+    "id": "PG07-16",
+    "filename": "PG07-16_重命名分类.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 163155
+  },
+  {
+    "id": "PG07-17",
+    "filename": "PG07-17_分类删除保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 176371
+  },
+  {
+    "id": "PG07-18",
+    "filename": "PG07-18_资源删除确认.png",
+    "width": 2580,
+    "height": 1240,
+    "bytes": 163819
+  },
+  {
+    "id": "PG07-19",
+    "filename": "PG07-19_资源删除引用保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 172535
+  },
+  {
+    "id": "PG07-20",
+    "filename": "PG07-20_图片预览.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 143395
+  },
+  {
+    "id": "PG07-21",
+    "filename": "PG07-21_文档预览.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 161681
+  },
+  {
+    "id": "PG07-22",
+    "filename": "PG07-22_不支持在线预览.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 124277
+  },
+  {
+    "id": "PG07-23",
+    "filename": "PG07-23_音频预览.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 122681
+  },
+  {
+    "id": "PG07-24",
+    "filename": "PG07-24_视频预览.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 136507
+  },
+  {
+    "id": "PG07-25",
+    "filename": "PG07-25_查询无结果.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 79800
+  },
+  {
+    "id": "PG07-26",
+    "filename": "PG07-26_暂无资源.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 80673
+  },
+  {
+    "id": "PG07-27",
+    "filename": "PG07-27_列表加载中.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 79605
+  },
+  {
+    "id": "PG07-28",
+    "filename": "PG07-28_列表加载失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 80581
+  },
+  {
+    "id": "PG07-29",
+    "filename": "PG07-29_只读资源列表.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 142181
+  },
+  {
+    "id": "PG07-30",
+    "filename": "PG07-30_资源分类树选择.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 176759
+  },
+  {
+    "id": "SKILL-01",
+    "filename": "SKILL-01_技能列表.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 118974
+  },
+  {
+    "id": "SKILL-02",
+    "filename": "SKILL-02_新增技能.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 148941
+  },
+  {
+    "id": "SKILL-03",
+    "filename": "SKILL-03_文件读取后自动填充.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 149317
+  },
+  {
+    "id": "SKILL-04",
+    "filename": "SKILL-04_文件校验失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 150654
+  },
+  {
+    "id": "SKILL-05",
+    "filename": "SKILL-05_技能解析中.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 117298
+  },
+  {
+    "id": "SKILL-06",
+    "filename": "SKILL-06_技能详情.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 155084
+  },
+  {
+    "id": "SKILL-07",
+    "filename": "SKILL-07_编辑技能.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 147534
+  },
+  {
+    "id": "SKILL-08",
+    "filename": "SKILL-08_未保存关闭保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 161612
+  },
+  {
+    "id": "SKILL-09",
+    "filename": "SKILL-09_停用确认.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 132718
+  },
+  {
+    "id": "SKILL-10",
+    "filename": "SKILL-10_启用确认.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 126989
+  },
+  {
+    "id": "SKILL-11",
+    "filename": "SKILL-11_删除引用保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 136643
+  },
+  {
+    "id": "SKILL-12",
+    "filename": "SKILL-12_解析失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 158850
+  },
+  {
+    "id": "SKILL-13",
+    "filename": "SKILL-13_技能查询无结果.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 70540
+  },
+  {
+    "id": "SKILL-14",
+    "filename": "SKILL-14_暂无技能.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 70488
+  },
+  {
+    "id": "SKILL-15",
+    "filename": "SKILL-15_技能加载中.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 70690
+  },
+  {
+    "id": "SKILL-16",
+    "filename": "SKILL-16_技能加载失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 72094
+  },
+  {
+    "id": "SKILL-17",
+    "filename": "SKILL-17_技能只读.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 108466
+  },
+  {
+    "id": "SKILL-18",
+    "filename": "SKILL-18_提交失败保留表单.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 147907
+  },
+  {
+    "id": "PROMPT-01",
+    "filename": "PROMPT-01_提示词列表.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 133239
+  },
+  {
+    "id": "PROMPT-02",
+    "filename": "PROMPT-02_新增提示词.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 152554
+  },
+  {
+    "id": "PROMPT-03",
+    "filename": "PROMPT-03_编辑草稿.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 151986
+  },
+  {
+    "id": "PROMPT-04",
+    "filename": "PROMPT-04_编辑已发布提示词.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 162912
+  },
+  {
+    "id": "PROMPT-05",
+    "filename": "PROMPT-05_发布确认.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 188781
+  },
+  {
+    "id": "PROMPT-06",
+    "filename": "PROMPT-06_发布失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 191030
+  },
+  {
+    "id": "PROMPT-07",
+    "filename": "PROMPT-07_提示词详情.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 141188
+  },
+  {
+    "id": "PROMPT-08",
+    "filename": "PROMPT-08_当前版本记录.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 160013
+  },
+  {
+    "id": "PROMPT-09",
+    "filename": "PROMPT-09_历史版本查看.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 158505
+  },
+  {
+    "id": "PROMPT-10",
+    "filename": "PROMPT-10_关闭编辑保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 190643
+  },
+  {
+    "id": "PROMPT-11",
+    "filename": "PROMPT-11_删除引用保护.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 141129
+  },
+  {
+    "id": "PROMPT-12",
+    "filename": "PROMPT-12_提示词查询无结果.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 73638
+  },
+  {
+    "id": "PROMPT-13",
+    "filename": "PROMPT-13_暂无提示词.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 73841
+  },
+  {
+    "id": "PROMPT-14",
+    "filename": "PROMPT-14_提示词加载中.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 73968
+  },
+  {
+    "id": "PROMPT-15",
+    "filename": "PROMPT-15_提示词加载失败.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 75830
+  },
+  {
+    "id": "PROMPT-16",
+    "filename": "PROMPT-16_提示词只读.png",
+    "width": 2576,
+    "height": 1240,
+    "bytes": 114043
+  },
+  {
+    "id": "PG11-I00",
+    "filename": "PG11-I00_初始状态.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 80776
+  },
+  {
+    "id": "PG11-I01",
+    "filename": "PG11-I01_模型菜单展开.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 99149
+  },
+  {
+    "id": "PG11-I02",
+    "filename": "PG11-I02_模型已切换.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 76961
+  },
+  {
+    "id": "PG11-I03",
+    "filename": "PG11-I03_资源选择.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 71874
+  },
+  {
+    "id": "PG11-I04",
+    "filename": "PG11-I04_资源已勾选.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 68023
+  },
+  {
+    "id": "PG11-I05",
+    "filename": "PG11-I05_依据已回填.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 76786
+  },
+  {
+    "id": "PG11-I06",
+    "filename": "PG11-I06_制作要求已填写.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 77139
+  },
+  {
+    "id": "PG11-I07",
+    "filename": "PG11-I07_选择技能.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 67315
+  },
+  {
+    "id": "PG11-I08",
+    "filename": "PG11-I08_依据失效.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 83852
+  },
+  {
+    "id": "PG11-I09",
+    "filename": "PG11-I09_首次提交生成中.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 66514
+  },
+  {
+    "id": "PG11-C01",
+    "filename": "PG11-C01_协作状态·文档.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 159540
+  },
+  {
+    "id": "PG11-C02",
+    "filename": "PG11-C02_协作状态·图片.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 144442
+  },
+  {
+    "id": "PG11-C03",
+    "filename": "PG11-C03_协作状态·视频.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 148038
+  },
+  {
+    "id": "PG11-C06",
+    "filename": "PG11-C06_保存成功.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 160279
+  },
+  {
+    "id": "PG11-C08",
+    "filename": "PG11-C08_视频生成中.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 119106
+  },
+  {
+    "id": "PG11-C11",
+    "filename": "PG11-C11_类型筛选无结果.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 135892
+  },
+  {
+    "id": "PG11-C17",
+    "filename": "PG11-C17_切换会话草稿保护.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 133295
+  },
+  {
+    "id": "PG11-C19",
+    "filename": "PG11-C19_项目不可访问.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 45282
+  },
+  {
+    "id": "PG11-C20",
+    "filename": "PG11-C20_导航收缩.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 139663
+  },
+  {
+    "id": "PG11-C22",
+    "filename": "PG11-C22_保存处理中.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 139034
+  },
+  {
+    "id": "PG11-C24",
+    "filename": "PG11-C24_协作态模型菜单.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 155931
+  },
+  {
+    "id": "PG11-I10",
+    "filename": "PG11-I10_需要补充信息.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 71407
+  },
+  {
+    "id": "PG11-C04",
+    "filename": "PG11-C04_历史会话筛选.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 171298
+  },
+  {
+    "id": "PG11-C05",
+    "filename": "PG11-C05_保存至资源库.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 155101
+  },
+  {
+    "id": "PG11-C07",
+    "filename": "PG11-C07_待人工确认.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 133156
+  },
+  {
+    "id": "PG11-C09",
+    "filename": "PG11-C09_视频生成失败.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 123684
+  },
+  {
+    "id": "PG11-C10",
+    "filename": "PG11-C10_内容预览失败.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 121049
+  },
+  {
+    "id": "PG11-C12",
+    "filename": "PG11-C12_围绕成果反馈.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 147419
+  },
+  {
+    "id": "PG11-C13",
+    "filename": "PG11-C13_修改稿与原稿保留.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 147893
+  },
+  {
+    "id": "PG11-C14",
+    "filename": "PG11-C14_保存失败保留输入.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 147438
+  },
+  {
+    "id": "PG11-C15",
+    "filename": "PG11-C15_保存名称校验.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 148511
+  },
+  {
+    "id": "PG11-C16",
+    "filename": "PG11-C16_入库分类树选择.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 143061
+  },
+  {
+    "id": "PG11-C18",
+    "filename": "PG11-C18_项目暂无成果.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 71318
+  },
+  {
+    "id": "PG11-C21",
+    "filename": "PG11-C21_全屏查看画布.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 87731
+  },
+  {
+    "id": "PG11-C23",
+    "filename": "PG11-C23_历史搜索无结果.png",
+    "width": 1936,
+    "height": 900,
+    "bytes": 137429
+  }
+]

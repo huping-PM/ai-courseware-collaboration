@@ -1,0 +1,33 @@
+id: course-manuscript-production
+version: 0.2.0
+initial_state: DRAFTING
+nodes:
+  - id: draft
+    skill: course-manuscript-generation
+    mode: draft
+    on_success: validate
+  - id: validate
+    skill: course-manuscript-validation
+    on_pass: review
+    on_blocked: repair
+  - id: review
+    skill: course-manuscript-review
+    on_approved: human_approval
+    on_blocked: repair
+    on_returned: repair
+  - id: repair
+    skill: course-manuscript-generation
+    mode: repair
+    requires: [validation-report.json, review-report.json]
+    on_success: validate
+  - id: human_approval
+    requires_human_approval: true
+    on_approved: lock
+  - id: lock
+    produces: locked-manuscript.md
+    next: N06
+invariants:
+  - Draft artifacts cannot enter N06.
+  - P0 validation or review findings block publication and lock.
+  - Repair preserves locked_sections unless an approved change request explicitly unlocks them.
+  - Every artifact version records its parent version and source evidence IDs.

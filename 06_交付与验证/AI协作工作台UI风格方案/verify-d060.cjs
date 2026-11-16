@@ -1,0 +1,60 @@
+const assert=require('node:assert/strict');
+const path=require('node:path');
+const {chromium}=require('C:/Users/Administrator/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root='http://127.0.0.1:8775/';
+const base=root+'06_%E4%BA%A4%E4%BB%98%E4%B8%8E%E9%AA%8C%E8%AF%81/AI%E5%8D%8F%E4%BD%9C%E5%B7%A5%E4%BD%9C%E5%8F%B0UI%E9%A3%8E%E6%A0%BC%E6%96%B9%E6%A1%88/%E4%BA%A4%E4%BA%92Demo.html?revision=D060';
+(async()=>{
+ const browser=await chromium.launch({channel:'msedge',headless:true});
+ const page=await browser.newPage({viewport:{width:1440,height:900}});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ try{
+  await page.goto(base);const frame=page.frameLocator('#workbench');
+  await frame.locator('#newSessionButton').waitFor();
+  await frame.locator('body').evaluate(()=>localStorage.clear());await page.reload();
+  await frame.locator('#newSessionButton').waitFor();
+  assert.deepEqual(await frame.locator('.studio-module-nav a').allTextContents(),['课件协作','资源管理','技能管理']);
+  assert(await frame.getByRole('link',{name:/返回数据资产管理系统/}).isVisible());
+  assert.equal(await frame.locator('.doc-footer').count(),0);
+  assert.equal(await frame.locator('#saveVersionButton').count(),0);
+  assert.equal(await frame.getByRole('button',{name:'成果',exact:true}).count(),0);
+  await page.screenshot({path:path.join(__dirname,'D060工作台-文档.png')});
+  await frame.locator('#editButton').click();assert((await frame.locator('#editButton').innerText()).includes('保存'));
+  await frame.locator('#markdownEditor').fill('# D060 文档保存测试');await frame.locator('#editButton').click();
+  assert.equal(await frame.locator('#markdownEditor').count(),0);
+  assert((await frame.locator('#paper').innerText()).includes('D060 文档保存测试'));
+  await frame.locator('#quoteButton').click();assert(await frame.locator('#canvasCitationDraft').isVisible());
+  await frame.locator('#message').fill('请检查本段');await frame.locator('#message').press('Enter');
+  assert((await frame.locator('#chatLog .human').last().innerText()).includes('客户沟通基础课.md'));
+  await frame.locator('#message').fill('保留的草稿');
+  await frame.locator('#newSessionButton').click();await frame.locator('#newSessionName').fill('选区隔离检查');await frame.locator('#confirmNewSession').click();
+  assert.equal(await frame.locator('#canvasCitationDraft').count(),0);
+  await frame.locator('[data-session-id="s-communication"]').click();
+  await frame.locator('[data-output-type="image"]').click();
+  assert(await frame.locator('#editButton').isHidden());assert(await frame.locator('#regionButton').isVisible());
+  const image=frame.locator('#regionImage');
+  for(const [n,text] of [[1,'人物手势是否自然？'],[2,'背景是否过于复杂？']]){
+   await frame.locator('#regionButton').click();
+   const box=await image.boundingBox();
+   await page.mouse.move(box.x+box.width*(n===1?.12:.52),box.y+box.height*.18);
+   await page.mouse.down();await page.mouse.move(box.x+box.width*(n===1?.35:.78),box.y+box.height*.55,{steps:8});await page.mouse.up();
+   await frame.locator('#regionNoteText').fill(text);
+   if(n===2)await frame.locator('input[name="regionNoteType"][value="备注"]').check();
+   await frame.getByRole('button',{name:'引用到会话'}).last().click();
+   assert.equal(await frame.locator('.region-mark').count(),n);
+   assert((await frame.locator('#chatLog .human').last().innerText()).includes(text));
+  }
+  await frame.locator('#archiveButton').click();
+  await page.screenshot({path:path.join(__dirname,'D060工作台.png')});
+  await page.reload();await frame.locator('[data-output-type="image"]').click();
+  assert.equal(await frame.locator('.region-mark').count(),2);
+  const size=await frame.locator('body').evaluate(()=>({scroll:document.documentElement.scrollWidth,client:document.documentElement.clientWidth}));
+  assert(size.scroll<=size.client);
+  const href=await frame.locator('.studio-module-nav a').nth(1).getAttribute('href');
+  await page.goto(root+'04_%E5%8E%9F%E5%9E%8B%E4%B8%8E%E8%AF%B4%E6%98%8E/AI%E5%8D%8F%E4%BD%9C%E5%B7%A5%E4%BD%9C%E5%8F%B0-%E9%A3%8E%E6%A0%BC%E6%8E%A2%E7%B4%A2/'+href);
+  assert(await page.locator('#resourceResults').isVisible());
+  await page.locator('.studio-module-nav a').nth(2).click();
+  assert(await page.locator('.studio-skills-list').isVisible());
+  assert.equal(errors.length,0,errors.join('\n'));
+  console.log(JSON.stringify({passed:true,checks:14,errors,size},null,2));
+ }finally{await browser.close()}
+})().catch(e=>{console.error(e);process.exitCode=1});

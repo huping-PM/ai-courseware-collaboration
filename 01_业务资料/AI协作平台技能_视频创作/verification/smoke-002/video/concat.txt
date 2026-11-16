@@ -1,0 +1,2 @@
+file 'D:\AI_工作区\AI_课件协作\01_业务资料\AI协作平台技能_视频创作\verification\smoke-002\video\page-000.mp4'
+file 'D:\AI_工作区\AI_课件协作\01_业务资料\AI协作平台技能_视频创作\verification\smoke-002\video\page-001.mp4'

@@ -1,0 +1,1 @@
+(()=>{const p=new URLSearchParams(location.search).get('project')||'a';if(!['a','b'].includes(p)){for(const k of Object.keys(data)){data[k]=[];categories[k]=['未分类']}}else if(p==='b'){for(const k of Object.keys(data))data[k]=data[k].slice(0,1).map(r=>({...r,name:'设备操作-'+r.name,cat:'设备资料'}));for(const k of Object.keys(categories))categories[k]=['未分类','设备资料']}render()})();

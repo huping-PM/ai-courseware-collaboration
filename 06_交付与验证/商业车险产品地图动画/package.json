@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "ffprobe-static": "^3.1.0",
+    "gsap": "^3.13.0",
+    "hyperframes": "^0.8.59"
+  }
+}

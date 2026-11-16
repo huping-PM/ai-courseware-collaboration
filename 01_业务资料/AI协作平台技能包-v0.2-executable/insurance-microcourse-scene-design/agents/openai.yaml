@@ -1,0 +1,4 @@
+interface:
+  display_name: "保险微课剧情设计（试用）"
+  short_description: "设计合规且可制作的保险微课情境导入"
+  default_prompt: "使用 $insurance-microcourse-scene-design 为这个保险微课设计情境导入。"

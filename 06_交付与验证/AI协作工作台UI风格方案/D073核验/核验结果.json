@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-09",
+  "revision": "D073",
+  "records": [
+    {
+      "name": "全部分类默认不可确认",
+      "passed": true
+    },
+    {
+      "name": "四种资源类型保留",
+      "passed": true
+    },
+    {
+      "name": "右侧无文件选择框",
+      "passed": true
+    },
+    {
+      "name": "父分类包括全部后代文件",
+      "passed": true
+    },
+    {
+      "name": "分类单选",
+      "passed": true
+    },
+    {
+      "name": "选中分类后键盘焦点保留",
+      "passed": true
+    },
+    {
+      "name": "键盘方向键可切换单一分类",
+      "passed": true
+    },
+    {
+      "name": "选择子分类替换父分类",
+      "passed": true
+    },
+    {
+      "name": "搜索只筛选预览不缩小引用",
+      "passed": true
+    },
+    {
+      "name": "搜索无结果仍引用整个非空分类",
+      "passed": true
+    },
+    {
+      "name": "切换资源类型清空选择",
+      "passed": true
+    },
+    {
+      "name": "切回类型不会恢复上次分类",
+      "passed": true
+    },
+    {
+      "name": "确认生成单个分类引用",
+      "passed": true
+    },
+    {
+      "name": "重开恢复已选分类",
+      "passed": true
+    },
+    {
+      "name": "取消不影响已确认引用",
+      "passed": true
+    },
+    {
+      "name": "重新确认替换引用",
+      "passed": true
+    },
+    {
+      "name": "整体移除清空引用和分类",
+      "passed": true
+    },
+    {
+      "name": "兼容旧文件引用且不冒认分类",
+      "passed": true
+    },
+    {
+      "name": "旧文件引用重开不误选分类",
+      "passed": true
+    },
+    {
+      "name": "取消保留旧文件引用",
+      "passed": true
+    },
+    {
+      "name": "切换会话不带入资源引用",
+      "passed": true
+    },
+    {
+      "name": "切回会话恢复分类及完整文件",
+      "passed": true
+    },
+    {
+      "name": "发送后输入区引用清空",
+      "passed": true
+    },
+    {
+      "name": "发送可展开实际引用文件",
+      "passed": true
+    },
+    {
+      "name": "发送记录保持会话隔离",
+      "passed": true
+    },
+    {
+      "name": "异步执行结束仍不串会话",
+      "passed": true
+    },
+    {
+      "name": "空分类禁用确认",
+      "passed": true
+    },
+    {
+      "name": "本地文件上传仍独立可用",
+      "passed": true
+    },
+    {
+      "name": "无脚本错误",
+      "passed": true
+    },
+    {
+      "name": "无资源加载失败",
+      "passed": true
+    },
+    {
+      "name": "页面无横向溢出",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-28",
+  "scope": "本地原型画面与说明布局检查；不替代后端、权限或真实生成验证",
+  "states": 13,
+  "errors": [],
+  "failedResources": [],
+  "records": [
+    {
+      "id": "TR01",
+      "metrics": {
+        "state": "TR01",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 207,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR02",
+      "metrics": {
+        "state": "TR02",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 138,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR03",
+      "metrics": {
+        "state": "TR03",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 179,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR04",
+      "metrics": {
+        "state": "TR04",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 191,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR05",
+      "metrics": {
+        "state": "TR05",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 175,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR06",
+      "metrics": {
+        "state": "TR06",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 138,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR07",
+      "metrics": {
+        "state": "TR07",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 141,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR08",
+      "metrics": {
+        "state": "TR08",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 143,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR09",
+      "metrics": {
+        "state": "TR09",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 131,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR10",
+      "metrics": {
+        "state": "TR10",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 130,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR11",
+      "metrics": {
+        "state": "TR11",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 153,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR12",
+      "metrics": {
+        "state": "TR12",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 136,
+        "editable": true
+      }
+    },
+    {
+      "id": "TR13",
+      "metrics": {
+        "state": "TR13",
+        "overflow": false,
+        "controls": []
+      },
+      "note": {
+        "right": true,
+        "text": 151,
+        "editable": true
+      }
+    }
+  ]
+}

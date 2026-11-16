@@ -1,0 +1,170 @@
+{
+  "release": "release-20260917073533952",
+  "verifiedAt": "2026-09-17T15:36:01.8720267+08:00",
+  "baseUrl": "http://192.168.1.81:8769/",
+  "httpFiles": [
+    {
+      "path": "compat.js",
+      "sha256": "d6938317d15ccc80180ca7e1d823e3f91bcdc0cae0c373146ee21d8cfc18d6ae",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\app.js",
+      "sha256": "edc561d9e65e245bd6e4a1c94575f25cdf982ac2fee75a188953beb2e7905503",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\assets\\preview.webm",
+      "sha256": "1ccc857a966365128afee20168b0e4ab0cfee74a1235023565ccf818b6004bdf",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\generated-resources.js",
+      "sha256": "a1dfb975a4ca18a1e220be966b6628f0b03e970f8a9476cbae9f42306ca9b2aa",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\style.css",
+      "sha256": "8c130ba73da33d5f4d7633abd7078fddc2ba62320204c0e99306e1f5bf7d94be",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\资源管理原型.html",
+      "sha256": "1d7050a874b9908f97170c0da0474d5c40517216ca1411b01a03f552827e4d8a",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\chat.css",
+      "sha256": "daaf3d47a905bea83913096746b50e5bd2a4ec7a9f2fa097fa816b7852da6e3e",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\chat.js",
+      "sha256": "cad627352f15779f4035dc8169719594077e6c05fca41ce7198ac6e790bb10f2",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\collaboration.css",
+      "sha256": "f7ac9729da1e3bab0e2eae8beb1ca0f62a8a4c33b72629999ddc79ac4d728680",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\collaboration.js",
+      "sha256": "92ea76a8499f0c479752786f4f12b0abc62eabf8db255bd1790d0b035f81da9d",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-examples.js",
+      "sha256": "6578892f97090fea2b0c6dd661b6a66559839c05f7f54919b791a7525ae49046",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-switcher.css",
+      "sha256": "b91b5ee055cf43ce2666fafe2209dbe1646bfae691817c5c879b925586698570",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-switcher.js",
+      "sha256": "6ef0c35f6ad516e838b252dfe5c37101d91ee6eef16bb49c6bcd1c6d55285e13",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\initial-state.js",
+      "sha256": "5e7680bcd1a4f8c83f93a888f4ce5f907ecf1099fb9d8dc480d921bbcfe465c4",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\save-resource.js",
+      "sha256": "4bf348f019a4a7778c685b147c509b17f20af89f611e9f31e98d82927b9f884f",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\内容协作智能体原型.html",
+      "sha256": "a659cd43d40e53f6e120ccd233e72049be9dd48274ce8ef2978db1d46db4de06",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\内容协作状态原型.html",
+      "sha256": "d15ee59e8039d093b6e15e6ae2b9676aa9cb5da96abceb22c39551c72d0f6c2e",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\base.css",
+      "sha256": "8c130ba73da33d5f4d7633abd7078fddc2ba62320204c0e99306e1f5bf7d94be",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\config.css",
+      "sha256": "3f8b0a5114cf3813b2f7b4ef4c67443bb6daeb7bf8f14fbd0046d1ed22497ae2",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\config.js",
+      "sha256": "8ac480d744234536943880de314516db09014a48d81231e79f273c68504ec54b",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\智能体配置原型.html",
+      "sha256": "c768d1ddf2ef62ce7ceca35c23ff770dfbdde7f5052d98e7fe853cee9bcfd898",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\category-tree.js",
+      "sha256": "860fdb38051146e5ff34bf4e50870267a043a64b8c007a66fc5965bbd6e6fcc7",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\category-tree.css",
+      "sha256": "ca385c75ba0e2933be4a7a9a9f8622e11477b0f44a706b3ace093672bbd6036a",
+      "passed": true
+    },
+    {
+      "path": "页面\\shared\\local-files.js",
+      "sha256": "8bdc6c7a74a190902e5ff4d6661949089011a4f5b433a3226d53eb18c51d0c08",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\skill-packages.js",
+      "sha256": "6728f1136f2a6b5b111d843b9f610e879e9eaa0faa1a17c014e2d6a5847a9f8f",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\skill-packages.css",
+      "sha256": "980b28f53da340e2081c1761209b9e67717756f0849b2f39c571c2ced0626beb",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\task-workspace.js",
+      "sha256": "c843dabf1719f250b6feded39812ada05356aecbbd789446f9768a5e26df5358",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\task-workspace.css",
+      "sha256": "b37a8799e614851bab5821be4e1bc5fb9cf49f0d702cf54d22f9e40dcdbf5c7b",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\local-upload.js",
+      "sha256": "f8c6970ed9cb0048a3017ab87cb4c74448ce126c2f7788f7861df3c131975f94",
+      "passed": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\local-file-preview.js",
+      "sha256": "7821d6037f13c07ba3729a3bc3d33241e11cb459830a029c9564ba7dd6976f19",
+      "passed": true
+    },
+    {
+      "path": "原型预览.html",
+      "sha256": "e8a4d11c207ffac921de11d5c06ffdfc4316ad6d1fbc46e29198907d2991e696",
+      "passed": true
+    }
+  ],
+  "browserChecks": [
+    "新增2至5级成功",
+    "第5级菜单不再显示新增子分类",
+    "刷新后分类保留",
+    "有子分类时阻止删除",
+    "五级树宽度与文本目视核对"
+  ],
+  "boundary": "浏览器交互在本机8770工作原型验证；局域网发布文件逐个HTTP摘要一致，未验证另一台电脑。"
+}

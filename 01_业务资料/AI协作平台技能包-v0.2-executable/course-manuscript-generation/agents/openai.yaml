@@ -1,0 +1,4 @@
+interface:
+  display_name: "微课程文稿生成（试用）"
+  short_description: "按保险微课标准生成可审核的课程草稿"
+  default_prompt: "使用 $course-manuscript-generation 为我开发一份保险微课程文稿草稿。"

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>任务处理记录 · 原型与需求说明</title><link rel="stylesheet" href="review.css"></head>
+<body>
+<header class="review-toolbar">
+  <strong>任务处理记录</strong><span class="review-badge">详细设计评审稿</span>
+  <label>状态 <select id="stateSelect" aria-label="选择原型状态"></select></label>
+  <button id="advance">模拟下一步</button><button id="fail">模拟失败</button><button id="cancel">模拟取消</button>
+  <a id="pureLink" href="prototype.html?state=TR03" target="_blank" rel="noopener">纯页面</a>
+  <a href="../../../03_功能设计/AI协作智能体-任务处理记录-需求说明.md" target="_blank">需求说明主本</a>
+  <button id="toggleNotes" aria-expanded="true" aria-controls="notesPanel">收起说明</button>
+</header>
+<div class="review-context">本地交互原型：技能、步骤和耗时均为样例；模拟按钮只推进演示。失败、取消、重试及旧记录兼容为设计建议，保存期限与删除联动仍待Q34。</div>
+<div class="review-layout">
+  <section class="screen-scroll" aria-label="业务原型画布"><iframe id="prototype" title="AI协作智能体任务处理记录原型"></iframe></section>
+  <aside id="notesPanel">
+    <header class="note-header"><span class="note-kicker">PG11 · 收集005 / R08</span><h1 id="noteTitle"></h1></header>
+    <div id="noteBody" contenteditable="true" role="textbox" aria-label="可编辑需求说明" aria-multiline="true" spellcheck="false"></div>
+    <footer class="note-footer"><div class="note-actions"><button id="saveDraft">保存本地草稿</button><button id="restoreDefault">恢复文件默认</button><button id="clearDraft">清除本地修改</button><button id="exportHtml">下载说明HTML</button></div><p id="noteStatus" role="status">正文来源：需求说明主本。浏览器编辑不会修改主本。</p></footer>
+  </aside>
+</div>
+<script src="notes-data.js"></script><script src="review.js"></script>
+</body></html>

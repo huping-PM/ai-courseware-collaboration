@@ -1,0 +1,23 @@
+{
+  "task_id": "course-20260929-001",
+  "artifact_version": "0.1.0",
+  "course": {
+    "title": "课程题目",
+    "audience": "保险从业人员",
+    "duration_minutes": {"min": 8, "max": 10},
+    "question": "一个具体业务判断问题"
+  },
+  "entities": [
+    {"name": "小王", "role": "新入职销售人员"},
+    {"name": "李老师", "role": "资深同事"}
+  ],
+  "required_sections": ["S01", "K01", "K02", "K03", "栗子精灵小结", "练习题"],
+  "exercise_count": 8,
+  "evidence_ids": ["SRC-001"],
+  "locked_sections": [],
+  "acceptance_criteria": [
+    "所有关键结论有 evidence_id",
+    "正文不包含未声明角色",
+    "P0 校验问题为零"
+  ]
+}

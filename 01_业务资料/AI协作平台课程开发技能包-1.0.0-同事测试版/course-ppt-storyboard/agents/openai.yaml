@@ -1,0 +1,6 @@
+interface:
+  display_name: "课程脚本与分镜 1.0 测试"
+  short_description: "将确认口播映射为可制作 PPT/Web 脚本分镜"
+  default_prompt: "使用 $course-ppt-storyboard，将确认课程口播稿生成可制作脚本分镜。"
+policy:
+  allow_implicit_invocation: true

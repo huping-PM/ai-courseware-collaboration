@@ -1,0 +1,13 @@
+const fs=require('fs'),path=require('path'),crypto=require('crypto');
+const root=path.resolve(__dirname,'../..');
+const source=path.join(root,'03_功能设计/AI协作智能体-任务处理记录-需求说明.md');
+const raw=fs.readFileSync(source,'utf8');
+const matches=[...raw.matchAll(/^### (TR\d{2}) (.+)\r?\n([\s\S]*?)(?=^### TR\d{2} |$(?![\s\S]))/gm)];
+const states=matches.map(m=>({id:m[1],title:m[2].trim(),text:m[3].trim()}));
+if(states.length!==13||new Set(states.map(s=>s.id)).size!==13)throw new Error('Expected 13 unique state note blocks, got '+states.length);
+const payload={source:'03_功能设计/AI协作智能体-任务处理记录-需求说明.md',hash:crypto.createHash('sha256').update(raw).digest('hex'),states};
+const out=path.join(root,'04_原型与说明/PG11-内容协作智能体/任务处理记录/notes-data.js');
+fs.mkdirSync(path.dirname(out),{recursive:true});
+fs.writeFileSync(out,'// Generated from requirement source; edit source and rerun build-notes.cjs.\nwindow.TR_NOTES = '+JSON.stringify(payload,null,2)+';\n');
+fs.writeFileSync(path.join(__dirname,'状态清单.json'),JSON.stringify(payload,null,2));
+console.log(JSON.stringify({states:states.length,sourceHash:payload.hash}));

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML知识动画制作"
+  short_description: "将中文口播稿制作成知识结构清晰、配图配音齐全的HTML动画微课"
+  default_prompt: "使用 $html-knowledge-video，按照我的口播稿和当前确认规则制作知识动画视频；先检查已有项目与确认记录，再推进当前所需阶段。"

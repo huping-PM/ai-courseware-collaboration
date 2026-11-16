@@ -1,0 +1,7 @@
+{
+  "deterministic_seek": "pass",
+  "screenshot_sha256": "cb88872543adb58be9b6f7a266df0280ae29a8c8c0e7f6730df2aee118ef93ee",
+  "overflow_rejected": "pass",
+  "negative_test_exit": 1,
+  "fixture": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\video-skill-browser-0IGFKP"
+}

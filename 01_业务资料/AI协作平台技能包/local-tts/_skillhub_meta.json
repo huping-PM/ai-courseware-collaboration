@@ -1,0 +1,10 @@
+{
+  "name": "本地文字转语音",
+  "installedAt": 1789096937009,
+  "source": "marketplace",
+  "version": "1.0.0",
+  "skillId": "skill_2093193796766011392",
+  "iconSource": "https://openplatform-cdn.codebuddy.cn/public/6f4ef6a5-7c30-41f3-9a4d-de32dd123fd2/avatar/skill/au_c52b58e0-f8a.png",
+  "iconLocalPath": "C:\\Users\\chenfeng\\.workbuddy\\skills\\local-tts\\_icon.png",
+  "iconDownloadedFrom": "https://openplatform-cdn.codebuddy.cn/public/6f4ef6a5-7c30-41f3-9a4d-de32dd123fd2/avatar/skill/au_c52b58e0-f8a.png"
+}

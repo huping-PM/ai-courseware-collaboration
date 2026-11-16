@@ -1,0 +1,16 @@
+{
+  "skills": 10,
+  "python_scripts": 11,
+  "node_scripts": 1,
+  "broken_package_links": [],
+  "handbook_entries": 101,
+  "category_counts": [
+    9,
+    13,
+    19,
+    25,
+    21,
+    14
+  ],
+  "new_paths_and_descriptions_match": true
+}

@@ -1,0 +1,180 @@
+{
+  "page": null,
+  "states": [
+    {
+      "id": "SKILL-03",
+      "name": "SKILL-03 文件读取后自动填充",
+      "section": "115:1993",
+      "screen": "115:1994",
+      "note": "115:2238",
+      "page": "89:549",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 82,
+      "instances": 1,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 技能包上传\na. 文件为第一项；ZIP内识别唯一 skills.md，兼容 SKILL.md。\nb. 名称、描述由元信息填入，可继续修改。\n2. 附件保留\na. 显示入口路径及包内全部文件，保留脚本与相对目录。\nb. 提交成功保存原包及附件，上传不执行脚本。",
+      "filename": "SKILL-03_文件读取后自动填充.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=115-1993",
+      "previousId": "SKILL-V3-01"
+    },
+    {
+      "id": "SKILL-07",
+      "name": "SKILL-07 编辑技能",
+      "section": "91:2011",
+      "screen": "91:2012",
+      "note": "91:2256",
+      "page": "89:549",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 82,
+      "instances": 1,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 编辑技能\na. 回填已保存名称、描述、原包及附件。\nb. 不替换文件则全部保留；替换后重新解析并填充。\nc. 解析或保存失败不覆盖已保存版本，保留表单便于修正。",
+      "filename": "SKILL-07_编辑技能.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=91-2011",
+      "previousId": "SKILL-V3-02"
+    },
+    {
+      "id": "SKILL-04",
+      "name": "SKILL-04 文件校验失败",
+      "section": "117:1762",
+      "screen": "117:1763",
+      "note": "117:2009",
+      "page": "89:549",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 83,
+      "instances": 1,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 解析失败\na. 缺失或多个技能入口、加密、损坏、超限时阻止提交。\nb. 展示具体原因，用户重选文件后重试。\nc. 不把压缩包中的脚本作为可执行操作。",
+      "filename": "SKILL-04_文件校验失败.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=117-1762",
+      "previousId": "SKILL-V3-03"
+    },
+    {
+      "id": "SKILL-06",
+      "name": "SKILL-06 技能详情",
+      "section": "117:2011",
+      "screen": "117:2012",
+      "note": "117:2253",
+      "page": "89:549",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 83,
+      "instances": 1,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 查看技能包\na. 展示技能说明正文和包内文件路径。\nb. 可下载原始压缩包或单个文件，字节与上传内容一致。\nc. 文件只读查看，不在此执行脚本。",
+      "filename": "SKILL-06_技能详情.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=117-2011",
+      "previousId": "SKILL-V3-04"
+    },
+    {
+      "id": "PG11-I00",
+      "name": "PG11-I00 初始状态",
+      "section": "118:548",
+      "screen": "118:549",
+      "note": "118:628",
+      "page": "89:551",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 20,
+      "instances": 1,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 会话任务列表\na. 导航右侧常驻任务列表，替代历史标题下拉。\nb. 每项仅保留单行名称与右侧状态图标；悬停显示完整名称和状态。\n2. 独立草稿\na. 切换任务保留各自草稿、引用与模型。\nb. 输入左下增加本地上传加号；模型保持右下。",
+      "filename": "PG11-I00_初始状态.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=118-548",
+      "previousId": "PG11-V3-01"
+    },
+    {
+      "id": "PG11-C08",
+      "name": "PG11-C08 视频生成中",
+      "section": "119:1921",
+      "screen": "119:1922",
+      "note": "119:2223",
+      "page": "89:551",
+      "width": 1920,
+      "height": 1080,
+      "noteX": 1988,
+      "screenRight": 1960,
+      "textCount": 72,
+      "instances": 3,
+      "fonts": [
+        "Noto Sans SC"
+      ],
+      "noteText": "1. 多任务并发\na. 不同会话可同时执行，同一任务执行中禁止重复提交。\nb. 列表实时回写执行状态，后台完成不打断当前查看。\n2. 成果归属\na. 消息、文件、模型与成果按项目和任务绑定。\nb. 待确认与执行失败不能标记为已完成。",
+      "filename": "PG11-C08_视频生成中.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=119-1921",
+      "previousId": "PG11-V3-02"
+    },
+    {
+      "id": "PG11-U01",
+      "name": "PG11-U01 本地上传确认",
+      "section": "154:1699",
+      "screen": "154:1700",
+      "note": "154:1853",
+      "page": "89:551",
+      "width": 1920,
+      "height": 1080,
+      "noteText": "1. 本地上传\na. 选中文件后加入待确认草稿，自动弹出文件列表。\nb. 每项独立设置是否保存，默认不保存资源库。\n2. 分类与确认\na. 勾选保存后，选择当前项目相应类型的分类，最多5级。\nb. 确认仅引入文件，不自动发送消息。",
+      "filename": "PG11-U01_本地上传确认.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=154-1699",
+      "noteX": 1988,
+      "screenRight": 1960,
+      "previousId": "PG11-V3-03"
+    },
+    {
+      "id": "PG11-U02",
+      "name": "PG11-U02 部分入库失败",
+      "section": "154:1855",
+      "screen": "154:1856",
+      "note": "154:2012",
+      "page": "89:551",
+      "width": 1920,
+      "height": 1080,
+      "noteText": "1. 部分失败\na. 逐项显示失败原因，保留文件和选择。\nb. 已入库项保留且不重复提交。\nc. 失败项可重试，或取消保存后仅用于对话。\n2. 关闭\na. 移除未确认的本批草稿引用，不删除已入库资源。",
+      "filename": "PG11-U02_部分入库失败.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=154-1855",
+      "noteX": 1988,
+      "screenRight": 1960,
+      "previousId": "PG11-V3-04"
+    },
+    {
+      "id": "PG11-U03",
+      "name": "PG11-U03 本地附件已回填",
+      "section": "154:2014",
+      "screen": "154:2015",
+      "note": "154:2125",
+      "page": "89:551",
+      "width": 1920,
+      "height": 1080,
+      "noteText": "1. 确认完成\na. 文件作为本地附件显示在当前草稿，不自动发送。\nb. 已选入库文件可在当前项目资源库查看，未勾选文件仅作会话依据。\nc. 移除草稿附件不删除已入库文件。",
+      "filename": "PG11-U03_本地附件已回填.png",
+      "figmaUrl": "https://www.figma.com/design/EjC3IegY9kqwAAmg5M5mrR?node-id=154-2014",
+      "noteX": 1988,
+      "screenRight": 1960,
+      "previousId": "PG11-V3-05"
+    }
+  ],
+  "status": "已合并，使用原页面节点"
+}

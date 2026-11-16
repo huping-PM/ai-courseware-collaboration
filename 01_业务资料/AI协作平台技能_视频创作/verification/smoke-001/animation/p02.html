@@ -1,0 +1,10 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><style>
+html,body{margin:0;width:1280px;height:720px;overflow:hidden;background:#F7FBF8;font-family:"Microsoft YaHei",sans-serif}
+#stage{box-sizing:border-box;width:1280px;height:720px;padding:48px 64px;border-left:18px solid #34C77B;color:#0F3D2E;opacity:1}
+h1{margin:0 0 42px;font-size:42px;line-height:1.25} ul{margin:0;padding-left:32px} ul.with-image{width:720px} ul.without-image{width:1100px} li{font-size:28px;line-height:1.45;margin:16px 0;opacity:0;transition:opacity .12s linear} .page-image{position:absolute;right:64px;top:155px;width:360px;height:402px;object-fit:contain}
+</style></head><body><main id="stage"><h1>各节点产物可追溯</h1><ul class="without-image"><li data-segment-id="s01">检查输入文件版本</li><li data-segment-id="s02">把结果保存到新目录</li></ul></main><script>
+const windows={"s01":[0.0, 0.4],"s02":[0.5, 0.9]}; const narrationEnd=0.9; const duration=1.2; window.__layoutErrors=[];
+function clamp(v,a,b){return Math.max(a,Math.min(b,v));}
+window.seek=function(t){t=Number(t);if(!Number.isFinite(t))t=0; document.querySelectorAll('[data-segment-id]').forEach(el=>{const w=windows[el.dataset.segmentId];const fadeIn=Math.min(.18,Math.max(.05,(w[1]-w[0])*.25));el.style.opacity=clamp((t-w[0])/fadeIn,0,1);}); const fade=duration>narrationEnd?1-clamp((t-narrationEnd)/(duration-narrationEnd),0,1):1;document.getElementById('stage').style.opacity=fade;};
+window.seek(0); document.querySelectorAll('h1,li').forEach(el=>{if(el.scrollHeight>el.clientHeight||el.scrollWidth>el.clientWidth)window.__layoutErrors.push(el.tagName+' text overflow');}); window.__videoReady=true;
+</script></body></html>

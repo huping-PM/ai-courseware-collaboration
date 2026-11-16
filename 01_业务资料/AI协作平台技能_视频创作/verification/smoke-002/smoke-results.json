@@ -1,0 +1,132 @@
+{
+  "audio": "synthetic_test_tone_not_tts",
+  "results": [
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-source-read\\scripts\\extract_source.py",
+        "--input",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\source.md",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\extracted.md"
+      ],
+      "returncode": 0,
+      "stdout": "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\extracted.md\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-script-plan\\scripts\\validate_project.py",
+        "--project",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\project.json",
+        "--require-images",
+        "--require-audio"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"valid\",\n  \"pages\": 2,\n  \"sha256\": \"7eaa6609e1e880cd546357c59308e81915831d1b5873c8292694994117144f70\",\n  \"warnings\": [],\n  \"business_approval\": \"not_checked\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-image-assets\\scripts\\prepare_images.py",
+        "--project",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\project.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\prepared"
+      ],
+      "returncode": 0,
+      "stdout": "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\prepared\\assets-manifest.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-ppt-build\\scripts\\build_ppt.py",
+        "--project",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\project.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\sample.pptx"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-voice-timeline\\scripts\\build_timeline.py",
+        "--project",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\project.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\voice"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-animation-build\\scripts\\build_animation.py",
+        "--project",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\project.json",
+        "--timeline",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\voice\\timeline.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\animation"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-frame-render\\scripts\\render_frames.js",
+        "--manifest",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\animation\\pages-manifest.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\frames",
+        "--browser",
+        "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "--engine",
+        "playwright"
+      ],
+      "returncode": 0,
+      "stdout": "p01: 30 frames\np02: 30 frames\nD:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\frames\\frames-manifest.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\video-compose\\scripts\\compose_video.py",
+        "--manifest",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\frames\\frames-manifest.json",
+        "--output",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\video",
+        "--ffmpeg",
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\video-skill-verification-runtime\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\Administrator\\AppData\\Local\\Temp\\video-skill-verification-runtime\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+        "-v",
+        "error",
+        "-i",
+        "D:\\AI_工作区\\AI_课件协作\\01_业务资料\\AI协作平台技能_视频创作\\verification\\smoke-002\\video\\final.mp4",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ]
+}

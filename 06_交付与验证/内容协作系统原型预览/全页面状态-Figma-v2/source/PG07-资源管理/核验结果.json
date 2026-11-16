@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "screenshots": 17,
+  "checks": [
+    "四页签",
+    "1440无页面横溢",
+    "名称查询及重置",
+    "切类型清查询",
+    "编辑必填",
+    "未保存关闭保护",
+    "编辑保存",
+    "引用阻止删除",
+    "视频样片可播放"
+  ],
+  "metrics": {
+    "viewport": 1440,
+    "sidebar": 266,
+    "top": 60,
+    "button": 32,
+    "primary": "rgb(24, 144, 255)",
+    "radius": "4px",
+    "pageOverflow": false,
+    "tableOverflow": true
+  },
+  "pageErrors": []
+}

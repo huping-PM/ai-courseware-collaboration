@@ -1,0 +1,157 @@
+{
+  "date": "2026-09-17",
+  "release": "release-20260917072204029",
+  "previous": "release-20260915071056845",
+  "base": "http://192.168.1.81:8769/",
+  "httpChecks": [
+    {
+      "path": "compat.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\app.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\assets\\preview.webm",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\generated-resources.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\style.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\资源管理原型.html",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\chat.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\chat.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\collaboration.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\collaboration.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-examples.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-switcher.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\history-switcher.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\initial-state.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\save-resource.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\内容协作智能体原型.html",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\内容协作状态原型.html",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\base.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\config.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\config.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\智能体配置原型.html",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\shared\\local-files.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\skill-packages.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG13-智能体配置\\skill-packages.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\task-workspace.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\task-workspace.css",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG11-内容协作智能体\\local-upload.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "页面\\PG07-资源管理\\local-file-preview.js",
+      "status": 200,
+      "hashMatch": true
+    },
+    {
+      "path": "原型预览.html",
+      "status": 200,
+      "hashMatch": true
+    }
+  ],
+  "videoRange206": true,
+  "candidateBrowser": "初始态与单行任务列表、上传入口可见",
+  "liveBrowser": "内置浏览器读取页面多次超时，未声称本轮正式地址完整交互验收通过",
+  "crossComputer": "未取得另一台电脑回执"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "保险微课情境分镜 1.0 测试"
+  short_description: "将确认导入口播细化为可制作场景镜头"
+  default_prompt: "使用 $insurance-microcourse-scene-design，为确认的课程导入口播生成场景镜头卡。"
+policy:
+  allow_implicit_invocation: true

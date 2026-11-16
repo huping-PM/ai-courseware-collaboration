@@ -1,0 +1,4 @@
+interface:
+  display_name: "产品方案讨论导图"
+  short_description: "将产品想法整理成可交互导图，逐点比较方案、推荐方向或梳理功能模块"
+  default_prompt: "使用 $product-plan-mindmap，把这些产品想法整理成可逐点讨论的交互式方案导图。"

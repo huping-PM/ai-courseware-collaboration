@@ -1,0 +1,5 @@
+.ai-has-workbench-entry .ai-workbench-entry{display:inline-flex;align-items:center;justify-content:center;gap:7px;margin-left:auto;padding:0 13px;height:32px;flex:none;border:1px solid #bddcff;border-radius:6px;background:#f1f7ff;color:#1677c9;font:600 13px/1.2 "PingFang SC","Microsoft YaHei",Arial,sans-serif;text-decoration:none;white-space:nowrap;transition:background .15s,border-color .15s}
+.ai-has-workbench-entry .ai-workbench-entry:hover{background:#e5f2ff;border-color:#75b7f2;color:#0966b0}
+.ai-has-workbench-entry .ai-workbench-entry:focus-visible{outline:2px solid #1677c9;outline-offset:2px}
+.ai-has-workbench-entry .ai-workbench-entry svg{width:16px;height:16px;flex:none}
+.ai-has-workbench-entry .user{margin-left:0}

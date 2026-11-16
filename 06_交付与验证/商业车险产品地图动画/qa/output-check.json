@@ -1,0 +1,135 @@
+{
+  "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\renders\\商业车险产品地图.mp4",
+  "bytes": 29988620,
+  "sha256": "777fd3f5c3043a0ed3fa0a098cd8f0368587caf6855d3c43acc431fc46abd9ab",
+  "duration": 550.7,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "audio_stream_count": 1,
+  "full_decode": "passed",
+  "frames": [
+    {
+      "id": "P01",
+      "time": 18.43,
+      "file": "qa\\mp4-frames\\P01.png",
+      "pixel_mean_difference_vs_source": 4.163,
+      "brightness": 220.32
+    },
+    {
+      "id": "P02",
+      "time": 41.17,
+      "file": "qa\\mp4-frames\\P02.png",
+      "pixel_mean_difference_vs_source": 4.192,
+      "brightness": 221.55
+    },
+    {
+      "id": "P03",
+      "time": 62.83,
+      "file": "qa\\mp4-frames\\P03.png",
+      "pixel_mean_difference_vs_source": 4.073,
+      "brightness": 222.92
+    },
+    {
+      "id": "P04",
+      "time": 85.07,
+      "file": "qa\\mp4-frames\\P04.png",
+      "pixel_mean_difference_vs_source": 4.294,
+      "brightness": 223.79
+    },
+    {
+      "id": "P05",
+      "time": 94.27,
+      "file": "qa\\mp4-frames\\P05.png",
+      "pixel_mean_difference_vs_source": 4.381,
+      "brightness": 224.97
+    },
+    {
+      "id": "P06",
+      "time": 128.57,
+      "file": "qa\\mp4-frames\\P06.png",
+      "pixel_mean_difference_vs_source": 4.127,
+      "brightness": 226.32
+    },
+    {
+      "id": "P07",
+      "time": 169.4,
+      "file": "qa\\mp4-frames\\P07.png",
+      "pixel_mean_difference_vs_source": 4.042,
+      "brightness": 226.74
+    },
+    {
+      "id": "P08",
+      "time": 196.8,
+      "file": "qa\\mp4-frames\\P08.png",
+      "pixel_mean_difference_vs_source": 4.445,
+      "brightness": 222.37
+    },
+    {
+      "id": "P09",
+      "time": 225.37,
+      "file": "qa\\mp4-frames\\P09.png",
+      "pixel_mean_difference_vs_source": 4.348,
+      "brightness": 221.84
+    },
+    {
+      "id": "P10",
+      "time": 278.0,
+      "file": "qa\\mp4-frames\\P10.png",
+      "pixel_mean_difference_vs_source": 3.782,
+      "brightness": 224.53
+    },
+    {
+      "id": "P11",
+      "time": 310.67,
+      "file": "qa\\mp4-frames\\P11.png",
+      "pixel_mean_difference_vs_source": 3.961,
+      "brightness": 224.19
+    },
+    {
+      "id": "P12",
+      "time": 353.33,
+      "file": "qa\\mp4-frames\\P12.png",
+      "pixel_mean_difference_vs_source": 4.253,
+      "brightness": 224.75
+    },
+    {
+      "id": "P13",
+      "time": 405.97,
+      "file": "qa\\mp4-frames\\P13.png",
+      "pixel_mean_difference_vs_source": 3.97,
+      "brightness": 224.78
+    },
+    {
+      "id": "P14",
+      "time": 444.03,
+      "file": "qa\\mp4-frames\\P14.png",
+      "pixel_mean_difference_vs_source": 3.936,
+      "brightness": 227.32
+    },
+    {
+      "id": "P15",
+      "time": 488.67,
+      "file": "qa\\mp4-frames\\P15.png",
+      "pixel_mean_difference_vs_source": 3.962,
+      "brightness": 222.1
+    },
+    {
+      "id": "P16",
+      "time": 521.9,
+      "file": "qa\\mp4-frames\\P16.png",
+      "pixel_mean_difference_vs_source": 4.431,
+      "brightness": 222.17
+    },
+    {
+      "id": "P17",
+      "time": 549.7,
+      "file": "qa\\mp4-frames\\P17.png",
+      "pixel_mean_difference_vs_source": 4.343,
+      "brightness": 224.05
+    }
+  ],
+  "all_frames_match_source": true
+}

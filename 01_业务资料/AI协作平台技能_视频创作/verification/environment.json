@@ -1,0 +1,25 @@
+{
+  "python": "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "binaries": {
+    "python": "C:\\Users\\Administrator\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.EXE",
+    "node": "E:\\New Folder\\node.EXE",
+    "ffmpeg": null,
+    "ffprobe": null
+  },
+  "python_packages": {
+    "pptx": true,
+    "PIL": true,
+    "docx": false,
+    "pdfplumber": false,
+    "edge_tts": true,
+    "imageio_ffmpeg": false
+  },
+  "browsers": [
+    "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+    "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+  ],
+  "puppeteer_core": null,
+  "external_services": "not_checked",
+  "fonts": "must_check_actual_render",
+  "note": "Presence only; does not prove compatibility, API availability or rendering success."
+}

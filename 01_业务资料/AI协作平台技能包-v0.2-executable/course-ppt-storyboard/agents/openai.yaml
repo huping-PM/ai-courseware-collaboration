@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程PPT分镜（试用）"
+  short_description: "将稳定文稿拆为可制作的PPT分镜"
+  default_prompt: "使用 $course-ppt-storyboard 将这份已确认课程文稿拆为PPT分镜。"

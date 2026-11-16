@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "title": "技术验证样例（非业务样片）",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "audio": {
+    "sample_rate": 24000,
+    "pause": 0.1,
+    "tail": 0.3
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "title": "先确认版本，再开始修改",
+      "bullets": [
+        {
+          "id": "b01",
+          "text": "检查输入文件版本",
+          "segment_id": "s01"
+        },
+        {
+          "id": "b02",
+          "text": "把结果保存到新目录",
+          "segment_id": "s02"
+        }
+      ],
+      "segments": [
+        {
+          "id": "s01",
+          "text": "测试口播文字1-1，音频为测试提示音。",
+          "audio": "source-audio/p01-s01.wav"
+        },
+        {
+          "id": "s02",
+          "text": "测试口播文字1-2，音频为测试提示音。",
+          "audio": "source-audio/p01-s02.wav"
+        }
+      ],
+      "source_refs": [
+        "测试自建内容，非用户业务材料"
+      ],
+      "image": "illustration.png"
+    },
+    {
+      "id": "p02",
+      "title": "各节点产物可追溯",
+      "bullets": [
+        {
+          "id": "b01",
+          "text": "检查输入文件版本",
+          "segment_id": "s01"
+        },
+        {
+          "id": "b02",
+          "text": "把结果保存到新目录",
+          "segment_id": "s02"
+        }
+      ],
+      "segments": [
+        {
+          "id": "s01",
+          "text": "测试口播文字2-1，音频为测试提示音。",
+          "audio": "source-audio/p02-s01.wav"
+        },
+        {
+          "id": "s02",
+          "text": "测试口播文字2-2，音频为测试提示音。",
+          "audio": "source-audio/p02-s02.wav"
+        }
+      ],
+      "source_refs": [
+        "测试自建内容，非用户业务材料"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "ok": true,
+  "errorCount": 0,
+  "warningCount": 18,
+  "infoCount": 0,
+  "findings": [
+    {
+      "code": "timeline_track_too_dense",
+      "severity": "warning",
+      "message": "Track 1 has 17 timed elements in this HTML file. Smaller sub-compositions keep timelines easier to read, iterate on, and diff.",
+      "fixHint": "Move coherent scene groups into separate .html files under compositions/ and mount them from the parent with data-composition-src so the timeline stays easier to inspect, revise, and validate.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P01\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P01",
+      "fixHint": "Move <section id=\"P01\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P02\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P02",
+      "fixHint": "Move <section id=\"P02\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P03\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P03",
+      "fixHint": "Move <section id=\"P03\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P04\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P04",
+      "fixHint": "Move <section id=\"P04\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P05\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P05",
+      "fixHint": "Move <section id=\"P05\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P06\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P06",
+      "fixHint": "Move <section id=\"P06\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P07\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P07",
+      "fixHint": "Move <section id=\"P07\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P08\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P08",
+      "fixHint": "Move <section id=\"P08\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P09\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P09",
+      "fixHint": "Move <section id=\"P09\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P10\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P10",
+      "fixHint": "Move <section id=\"P10\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P11\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P11",
+      "fixHint": "Move <section id=\"P11\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P12\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P12",
+      "fixHint": "Move <section id=\"P12\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P13\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P13",
+      "fixHint": "Move <section id=\"P13\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P14\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P14",
+      "fixHint": "Move <section id=\"P14\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P15\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P15",
+      "fixHint": "Move <section id=\"P15\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P16\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P16",
+      "fixHint": "Move <section id=\"P16\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    },
+    {
+      "code": "nested_structure_needs_subcomposition",
+      "severity": "warning",
+      "message": "<section id=\"P17\"> is a timeline element that contains nested <div>. The timeline shows one row per top-level element, and the root composition is built only from sub-compositions.",
+      "elementId": "P17",
+      "fixHint": "Move <section id=\"P17\"> and its contents into a sub-composition file and mount it with data-composition-src.",
+      "file": "D:\\AI_工作区\\AI_课件协作\\06_交付与验证\\商业车险产品地图动画\\index.html"
+    }
+  ],
+  "filesScanned": 1,
+  "_meta": {
+    "version": "0.8.59",
+    "latestVersion": "0.8.59",
+    "updateAvailable": false
+  }
+}

@@ -1,0 +1,11 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'../../..');
+const source=fs.readFileSync(path.join(root,'03_功能设计/课件编辑器-原型说明.md'),'utf8');
+const entries=Array.from(source.matchAll(/^## (S\d{2}) (.+?)（([\w-]+)）\r?\n([\s\S]*?)(?=^## |$(?![\s\S]))/gm)).map(m=>({number:m[1],title:m[2],id:m[3],body:m[4].trim()}));
+if(entries.length!==26)throw Error('Expected 26 state notes, got '+entries.length);
+fs.writeFileSync(path.join(__dirname,'notes-data.js'),'window.EDITOR_NOTES='+JSON.stringify(entries,null,2)+';\n');
+const out=path.join(root,'06_交付与验证/课件编辑器原型预览');fs.mkdirSync(out,{recursive:true});
+const cards=entries.map(e=>'<article id="'+e.id+'"><a href="../../04_原型与说明/PG11-内容协作智能体/课件编辑器/review.html?state='+e.id+'"><img loading="lazy" src="图文说明/'+e.number+'-'+e.title+'.png" alt="'+e.title+'的原型与说明"><h2>'+e.number+' '+e.title+'</h2></a><a class="raw" href="原型图/'+e.number+'-'+e.title+'.png">查看原型原图</a></article>').join('\n');
+const html='<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>课件编辑器 · 原型图与说明</title><style>body{margin:0;background:#f5f7fa;color:#303133;font:14px/1.6 Microsoft YaHei,sans-serif}header{padding:32px 48px;background:#fff;border-bottom:1px solid #ebeef5}h1{font-size:26px;font-weight:600;margin:0 0 8px}p{color:#606266}a{color:#1890ff;text-decoration:none}nav{display:flex;gap:24px}main{padding:32px 48px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}article{background:white;border:1px solid #ebeef5;border-radius:6px;padding:14px}img{display:block;width:100%;border:1px solid #ebeef5}h2{font-size:16px;font-weight:500;margin:14px 0 2px}.raw{font-size:12px;color:#909399}@media(max-width:900px){main{grid-template-columns:1fr;padding:20px}header{padding:24px}}</style><header><h1>课件编辑器 · 原型图与说明</h1><p>26个状态 · 2026-09-21 · 待评审。点击图片进入对应交互原型；AI生成、视频渲染与审核为流程演示。</p><nav><a href="../../04_原型与说明/PG11-内容协作智能体/课件编辑器/review.html">打开交互原型与说明</a><a href="../../03_功能设计/课件编辑器-需求说明.md">需求文档</a><a href="../../03_功能设计/课件编辑器-原型说明.md">说明正文</a><a href="交付与核验.md">交付与验证范围</a></nav></header><main>'+cards+'</main></html>';
+fs.writeFileSync(path.join(out,'原型图与说明.html'),html);
+console.log(JSON.stringify({states:entries.length,output:out}));

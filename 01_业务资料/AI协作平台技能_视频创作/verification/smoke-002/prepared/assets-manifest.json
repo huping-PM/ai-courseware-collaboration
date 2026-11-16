@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "project_sha256": "7eaa6609e1e880cd546357c59308e81915831d1b5873c8292694994117144f70",
+  "images": [
+    {
+      "page_id": "p01",
+      "file": "p01.jpg",
+      "source_sha256": "28f97f86a2bbd163e16269f787e00709f8a29a9f2cf71c836f8c9001e17ff079",
+      "width": 600,
+      "height": 360
+    }
+  ],
+  "note": "Update project image paths explicitly, then rebuild timeline; visual meaning/OCR not checked."
+}

@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "decision": "D075",
+  "base": "http://192.168.1.81:8769",
+  "release": "release-20261009095452385",
+  "previous": "release-20261008023515017",
+  "files": 132,
+  "health": {
+    "status": "ok",
+    "release": "release-20261009095452385"
+  },
+  "checks": 47,
+  "errors": [],
+  "failed": [],
+  "previousIntegrity": true,
+  "mediaRangeStatus": 206,
+  "serviceTaskState": "Running",
+  "crossComputer": "未实测",
+  "restart": "未实测",
+  "ipAllocation": "DHCP"
+}

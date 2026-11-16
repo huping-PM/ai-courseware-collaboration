@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "time": "2026-09-15T14:29:36.1811842+08:00",
+  "release": "release-20260915062735604",
+  "rollback": "passed, previous release then restored",
+  "stopStart": "passed",
+  "crashRecovery": "passed",
+  "oldPid": 27024,
+  "newPid": 33328,
+  "account": "LOCAL SERVICE",
+  "taskState": "Running",
+  "startupTrigger": "MSFT_TaskBootTrigger",
+  "firewallProfile": "Domain, Private",
+  "firewallRemote": "LocalSubnet",
+  "actualRebootTest": "Not performed",
+  "otherComputerTest": "Awaiting colleague verification"
+}

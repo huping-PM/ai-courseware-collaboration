@@ -1,0 +1,6 @@
+interface:
+  display_name: "课程口播稿生成 1.0 测试"
+  short_description: "基于依据包生成完整可录制保险课程口播稿"
+  default_prompt: "使用 $course-manuscript-generation，根据需求和依据包生成完整课程口播稿。"
+policy:
+  allow_implicit_invocation: true

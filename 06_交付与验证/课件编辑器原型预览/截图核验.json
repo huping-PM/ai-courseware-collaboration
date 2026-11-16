@@ -1,0 +1,543 @@
+{
+  "date": "2026-09-21",
+  "kind": "本地原型截图与布局核验，不是业务系统验收",
+  "states": 26,
+  "rawImages": 26,
+  "annotatedImages": 26,
+  "smallViewport": {
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440
+  },
+  "records": [
+    {
+      "state": "overview",
+      "title": "编辑工作台",
+      "raw": "S01-编辑工作台.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "overview",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S01 编辑工作台"
+      }
+    },
+    {
+      "state": "text",
+      "title": "文字与图层编辑",
+      "raw": "S02-文字与图层编辑.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "text",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S02 文字与图层编辑"
+      }
+    },
+    {
+      "state": "assets",
+      "title": "替换项目素材",
+      "raw": "S03-替换项目素材.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 346.0625,
+            "width": 600,
+            "height": 387.859375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "assets",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S03 替换项目素材"
+      }
+    },
+    {
+      "state": "voice",
+      "title": "配音与字幕",
+      "raw": "S04-配音与字幕.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 267.953125,
+            "width": 600,
+            "height": 544.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "voice",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S04 配音与字幕"
+      }
+    },
+    {
+      "state": "ai-edit",
+      "title": "提出AI修改",
+      "raw": "S05-提出AI修改.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "ai-edit",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S05 提出AI修改"
+      }
+    },
+    {
+      "state": "ai-running",
+      "title": "AI修改中",
+      "raw": "S06-AI修改中.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "ai-running",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S06 AI修改中"
+      }
+    },
+    {
+      "state": "ai-candidate",
+      "title": "AI候选确认",
+      "raw": "S07-AI候选确认.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "ai-candidate",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S07 AI候选确认"
+      }
+    },
+    {
+      "state": "ai-failed",
+      "title": "AI修改失败",
+      "raw": "S08-AI修改失败.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "ai-failed",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S08 AI修改失败"
+      }
+    },
+    {
+      "state": "history",
+      "title": "历史版本",
+      "raw": "S09-历史版本.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 330.5,
+            "width": 600,
+            "height": 419,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "history",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S09 历史版本"
+      }
+    },
+    {
+      "state": "conflict",
+      "title": "版本冲突",
+      "raw": "S10-版本冲突.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 401.953125,
+            "width": 600,
+            "height": 276.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "conflict",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S10 版本冲突"
+      }
+    },
+    {
+      "state": "export",
+      "title": "导出确认",
+      "raw": "S11-导出确认.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 308,
+            "width": 600,
+            "height": 464,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "export",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S11 导出确认"
+      }
+    },
+    {
+      "state": "export-blocked",
+      "title": "导出检查未通过",
+      "raw": "S12-导出检查未通过.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 369.453125,
+            "width": 600,
+            "height": 341.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "export-blocked",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S12 导出检查未通过"
+      }
+    },
+    {
+      "state": "export-running",
+      "title": "视频导出中",
+      "raw": "S13-视频导出中.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 335.03125,
+            "width": 600,
+            "height": 409.9375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "export-running",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S13 视频导出中"
+      }
+    },
+    {
+      "state": "export-success",
+      "title": "视频导出成功",
+      "raw": "S14-视频导出成功.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 383,
+            "width": 600,
+            "height": 314,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "export-success",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S14 视频导出成功"
+      }
+    },
+    {
+      "state": "export-failed",
+      "title": "视频导出失败",
+      "raw": "S15-视频导出失败.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 407.953125,
+            "width": 600,
+            "height": 264.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "export-failed",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S15 视频导出失败"
+      }
+    },
+    {
+      "state": "save-failed",
+      "title": "保存失败",
+      "raw": "S16-保存失败.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 425.453125,
+            "width": 600,
+            "height": 229.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "save-failed",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S16 保存失败"
+      }
+    },
+    {
+      "state": "submit",
+      "title": "提交主管审核",
+      "raw": "S17-提交主管审核.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 295.953125,
+            "width": 600,
+            "height": 488.09375,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "submit",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S17 提交主管审核"
+      }
+    },
+    {
+      "state": "submitted",
+      "title": "已提交待审核",
+      "raw": "S18-已提交待审核.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 362.84375,
+            "width": 600,
+            "height": 354.3125,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "submitted",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S18 已提交待审核"
+      }
+    },
+    {
+      "state": "empty",
+      "title": "空场景",
+      "raw": "S19-空场景.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "empty",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S19 空场景"
+      }
+    },
+    {
+      "state": "loading",
+      "title": "工程加载中",
+      "raw": "S20-工程加载中.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "loading",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S20 工程加载中"
+      }
+    },
+    {
+      "state": "load-failed",
+      "title": "工程加载失败",
+      "raw": "S21-工程加载失败.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "load-failed",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S21 工程加载失败"
+      }
+    },
+    {
+      "state": "readonly",
+      "title": "工程只读",
+      "raw": "S22-工程只读.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "readonly",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S22 工程只读"
+      }
+    },
+    {
+      "state": "denied",
+      "title": "无权访问",
+      "raw": "S23-无权访问.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "denied",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S23 无权访问"
+      }
+    },
+    {
+      "state": "video-only",
+      "title": "仅有视频成果",
+      "raw": "S24-仅有视频成果.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": []
+      },
+      "note": {
+        "id": "video-only",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S24 仅有视频成果"
+      }
+    },
+    {
+      "state": "delete",
+      "title": "删除场景确认",
+      "raw": "S25-删除场景确认.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 436.5,
+            "width": 600,
+            "height": 207,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "delete",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S25 删除场景确认"
+      }
+    },
+    {
+      "state": "leave",
+      "title": "离开前保存",
+      "raw": "S26-离开前保存.png",
+      "metrics": {
+        "horizontalOverflow": false,
+        "dialogs": [
+          {
+            "x": 660,
+            "y": 436.5,
+            "width": 600,
+            "height": 207,
+            "inside": true
+          }
+        ]
+      },
+      "note": {
+        "id": "leave",
+        "right": true,
+        "topAligned": true,
+        "contentFits": true,
+        "title": "S26 离开前保存"
+      }
+    }
+  ],
+  "errors": []
+}

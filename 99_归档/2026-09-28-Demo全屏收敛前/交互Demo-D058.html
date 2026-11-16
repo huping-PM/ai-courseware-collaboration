@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI课件协作智能体 · Beautiful UI 交互 Demo</title>
+  <style>
+    :root{--page:#f7f8fa;--surface:#fff;--ink:#252b33;--ink2:#67707c;--line:#e8eaed;--line2:#dfe2e6;--hover:#f1f2f4;--accent:#356acc;--shadow:0 1px 3px #1623340b,0 8px 28px #16233409}
+    *{box-sizing:border-box}html,body{height:100%}body{margin:0;background:var(--page);color:var(--ink);font:13px/1.55 Inter,"Segoe UI","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    button,a{font:inherit}button{cursor:pointer}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+    .app{height:100%;min-height:700px;display:flex;flex-direction:column}.top{display:flex;align-items:center;gap:14px;min-height:62px;padding:0 23px;border-bottom:1px solid var(--line);background:#fff}.mark{width:30px;height:30px;border-radius:9px;background:var(--ink);color:white;display:grid;place-items:center;flex:none}.mark svg{width:17px;height:17px}.title{font-size:15px;font-weight:650;white-space:nowrap}.tag{font-size:10px;color:var(--ink2);background:var(--page);border:1px solid var(--line);padding:3px 7px;border-radius:6px;white-space:nowrap}.spacer{flex:1}.top-links{display:flex;gap:15px;align-items:center;font-size:12px;color:var(--ink2)}.top-links a{white-space:nowrap}
+    .bar{padding:13px 22px 11px;border-bottom:1px solid var(--line);background:var(--surface)}.bar-head{display:flex;align-items:center;gap:12px;margin-bottom:10px}.bar-head strong{font-size:12px}.bar-head span{color:var(--ink2);font-size:11px}.scenarios{display:flex;gap:7px;overflow-x:auto;scrollbar-width:thin;padding:0 1px 3px}.scenario{flex:none;border:1px solid var(--line2);background:#fff;color:var(--ink2);padding:6px 11px;border-radius:999px;font-size:11px;white-space:nowrap;transition:background .15s,box-shadow .15s,color .15s}.scenario:hover{background:var(--hover);color:var(--ink)}.scenario[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:#fff;box-shadow:0 2px 5px #00000014}
+    .stage{flex:1;min-height:0;padding:14px 18px 18px;display:flex;flex-direction:column}.stage-head{display:flex;align-items:center;gap:9px;padding:0 2px 10px;min-height:30px}.stage-head strong{font-size:12px}.stage-head span{font-size:11px;color:var(--ink2)}.stage-head a{margin-left:auto;font-size:11px;color:var(--ink2)}.frame-shell{flex:1;min-height:0;border:1px solid var(--line2);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);background:#fff}.frame-shell iframe{width:100%;height:100%;border:0;display:block;background:#fff}.foot{display:flex;gap:10px;align-items:center;justify-content:space-between;padding:0 2px 12px;color:#89909a;font-size:10px}.foot a{text-decoration:underline;text-underline-offset:2px}
+    @media(max-width:850px){.top{padding:0 14px;gap:9px}.tag{display:none}.top-links{gap:8px}.top-links a:first-child{display:none}.bar{padding:10px 13px}.stage{padding:10px}.stage-head{flex-wrap:wrap}.foot{padding:0 12px 10px}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m12 2 2.7 7.3L22 12l-7.3 2.7L12 22l-2.7-7.3L2 12l7.3-2.7L12 2Z"/></svg></span>
+      <strong class="title">AI课件协作智能体 · 交互 Demo</strong>
+      <span class="tag">Beautiful UI 官方组件规范</span>
+      <span class="spacer"></span>
+      <nav class="top-links" aria-label="演示资料">
+        <a href="../../03_功能设计/AI课件协作智能体-BeautifulUI组件规范.md" target="_blank">组件规范</a>
+        <a href="../../04_原型与说明/AI协作工作台-风格探索/THIRD_PARTY_LICENSES.md" target="_blank">来源与许可</a>
+      </nav>
+    </header>
+    <section class="bar" aria-label="演示场景">
+      <div class="bar-head"><strong>选择演示场景</strong><span>进入后可继续在工作台内操作；切换场景会重置演示状态</span></div>
+      <div class="scenarios" id="scenarios"></div>
+    </section>
+    <main class="stage">
+      <div class="stage-head"><strong id="sceneTitle">主工作台</strong><span id="sceneDescription">浏览会话、课件画布、成果与智能体对话。</span><a id="openWorkbench" target="_blank" rel="noopener">独立打开工作台 ↗</a></div>
+      <div class="frame-shell"><iframe id="workbench" title="内容协作智能体可交互工作台" src="../../04_原型与说明/AI协作工作台-风格探索/index.html?style=b&amp;page=workspace&amp;revision=D058"></iframe></div>
+    </main>
+    <footer class="foot"><span>交互与反馈使用本地演示数据；模型生成、服务端权限和跨设备保存仍需真实系统接入。</span><a href="交付与核验.md">查看核验记录</a></footer>
+  </div>
+  <script>
+    const base='../../04_原型与说明/AI协作工作台-风格探索/index.html?style=b&page=workspace&revision=D058';
+    const scenarios=[
+      {id:'home',label:'主工作台',description:'浏览会话、课件画布、成果与智能体对话。'},
+      {id:'new',label:'新建会话',description:'填写会话名称，创建独立的创作空间。',selector:'#newSessionButton'},
+      {id:'edit',label:'编辑讲稿',description:'在中央画布编辑 Markdown，预览并保存版本。',selector:'#editButton'},
+      {id:'image',label:'图片成果',description:'点击图片缩略图，查看媒体画布及可用操作。',query:'&asset=image'},
+      {id:'video',label:'视频成果',description:'查看首帧缩略图和视频预览状态。',query:'&asset=video'},
+      {id:'reference',label:'选择参考资料',description:'搜索资料并加入当前会话引用。',selector:'button[onclick="openReferences()"]'},
+      {id:'skills',label:'选择协作技能',description:'查看本次协作可用的项目与全局技能。',selector:'button[onclick="selectSkills()"]'},
+      {id:'approval',label:'确认项目技能',description:'检查 AI 总结的 Markdown 草稿，再由人工确认保存。',selector:'button[onclick="skillModal()"]'},
+      {id:'execution',label:'展开执行过程',description:'查看资料、技能与讲稿的执行摘要。',selector:'#executionTrace summary'},
+      {id:'filter',label:'筛选成果',description:'只看图片，再点击同一筛选按钮可恢复全部。',selector:'[data-output-filter="image"]'},
+      {id:'empty',label:'空会话',description:'创建一个无成果的会话，检查空态与输入区。',prepare:'empty'}
+    ];
+    const buttons=document.querySelector('#scenarios');
+    const frame=document.querySelector('#workbench');
+    const title=document.querySelector('#sceneTitle');
+    const description=document.querySelector('#sceneDescription');
+    const open=document.querySelector('#openWorkbench');
+    let active=scenarios[0],serial=0;
+    buttons.innerHTML=scenarios.map(s=>`<button class="scenario" type="button" data-id="${s.id}" aria-pressed="${s.id==='home'}">${s.label}</button>`).join('');
+    function choose(id){
+      active=scenarios.find(s=>s.id===id)||scenarios[0];
+      for(const b of buttons.querySelectorAll('button'))b.setAttribute('aria-pressed',String(b.dataset.id===active.id));
+      title.textContent=active.label;description.textContent=active.description;
+      const url=base+(active.query||'')+'&demoScene='+encodeURIComponent(active.id)+'&reload='+ (++serial);
+      frame.src=url;open.href=url;
+      history.replaceState(null,'','#'+active.id);
+    }
+    frame.addEventListener('load',()=>{
+      try{
+        const doc=frame.contentDocument;
+        if(!doc||!doc.querySelector('#newSessionButton'))return;
+        if(active.prepare==='empty'){
+          doc.querySelector('#newSessionButton').click();
+          doc.querySelector('#newSessionName').value='新的课件创作会话';
+          doc.querySelector('#confirmNewSession').click();
+        }else if(active.selector){doc.querySelector(active.selector)?.click()}
+      }catch(error){description.textContent=active.description+' 可在工作台内手动操作。'}
+    });
+    buttons.addEventListener('click',event=>{const button=event.target.closest('[data-id]');if(button)choose(button.dataset.id)});
+    choose(location.hash.slice(1));
+  </script>
+</body>
+</html>

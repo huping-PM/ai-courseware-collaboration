@@ -1,0 +1,50 @@
+version: 0.2.0
+package: ai-collaboration-platform-skills
+discovery:
+  skill_entrypoint: SKILL.md
+  ui_metadata: agents/openai.yaml
+  workflow_directory: workflows
+artifacts:
+  task_spec: task-spec.json
+  evidence_pack: evidence-pack.json
+  manifest: artifact-manifest.json
+  validation_report: validation-report.json
+  review_report: review-report.json
+skills:
+  agent-reach:
+    stage: standalone
+  hyperframes:
+    stage: standalone
+  adobe-animate-fla-export:
+    stage: standalone
+  gpt-image-2:
+    stage: standalone
+  web-video-presentation:
+    stage: standalone
+  html-knowledge-video:
+    stage: standalone
+  course-manuscript-generation:
+    stage: N04
+    modes: [draft, repair]
+    input: [task_spec, evidence_pack]
+    output: [manuscript-draft.md, manifest]
+    next: course-manuscript-validation
+  course-manuscript-validation:
+    stage: N04.5
+    input: [task_spec, manuscript-draft.md, manifest]
+    output: [validation_report]
+    blocks_on: [P0]
+    next: course-manuscript-review
+  course-manuscript-review:
+    stage: N05
+    input: [task_spec, manuscript-draft.md, validation_report]
+    output: [review_report]
+    blocks_on: [P0]
+    next_on_approved: course-ppt-storyboard
+    next_on_blocked: course-manuscript-generation
+  insurance-microcourse-scene-design:
+    stage: N06
+    input: [locked-manuscript.md]
+  course-ppt-storyboard:
+    stage: N06
+    input: [locked-manuscript.md]

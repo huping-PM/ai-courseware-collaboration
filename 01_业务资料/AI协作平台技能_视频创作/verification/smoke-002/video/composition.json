@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "input_manifest_sha256": "5eab978d66c5b1378f9b95338bad00266c8290c6245e3f89000cfa45a6b58fbc",
+  "project_sha256": "7eaa6609e1e880cd546357c59308e81915831d1b5873c8292694994117144f70",
+  "timeline_sha256": "fd5d4c7f7a0a6b2f9102699e9a7445b7eeb03ec6379aba51a22a2e1e35a778a8",
+  "fps": 25,
+  "width": 1280,
+  "height": 720,
+  "frame_count": 60,
+  "output": "final.mp4",
+  "output_sha256": "46b476239f2e2e707cb99259decf25dbc53b8ef88c014277fca066d2f9bfd2d6",
+  "pages": 2,
+  "checks": {
+    "continuous_frames": true,
+    "explicit_frame_limit": true,
+    "per_page_h264_aac": true,
+    "concat": "ffmpeg concat demuxer"
+  }
+}

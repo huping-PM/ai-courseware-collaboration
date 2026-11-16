@@ -1,0 +1,9 @@
+{
+  "entities": [
+    {"name": "小王", "role": "新入职销售人员"},
+    {"name": "李老师", "role": "资深同事"},
+    {"name": "客户", "role": "场景触发者"}
+  ],
+  "required_sections": ["S01", "K01", "K02", "K03", "练习题"],
+  "exercise_count": 8
+}

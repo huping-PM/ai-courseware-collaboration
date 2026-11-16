@@ -1,0 +1,81 @@
+{
+  "date": "2026-09-28",
+  "checks": [
+    {
+      "name": "单模块且删除第二层面包屑",
+      "passed": true
+    },
+    {
+      "name": "对话400px、成果条94px、单行会话40px",
+      "passed": true
+    },
+    {
+      "name": "名称右侧同行两类SVG状态图标和可访问名称",
+      "passed": true
+    },
+    {
+      "name": "doc筛选及二次取消，画布保持",
+      "passed": true
+    },
+    {
+      "name": "image筛选及二次取消，画布保持",
+      "passed": true
+    },
+    {
+      "name": "video筛选及二次取消，画布保持",
+      "passed": true
+    },
+    {
+      "name": "媒体与文档切换保留操作边界",
+      "passed": true
+    },
+    {
+      "name": "加号新增独立空会话并选中",
+      "passed": true
+    },
+    {
+      "name": "切换恢复各会话文稿和输入草稿",
+      "passed": true
+    },
+    {
+      "name": "未保存会话切换保护",
+      "passed": true
+    },
+    {
+      "name": "旧B模块深链统一进入内容协作",
+      "passed": true
+    },
+    {
+      "name": "当前总览文件链接可达",
+      "passed": true
+    }
+  ],
+  "metrics": {
+    ".chat-panel": {
+      "width": 400,
+      "height": 796
+    },
+    ".output-shelf": {
+      "width": 756,
+      "height": 94
+    },
+    ".studio-session-panel": {
+      "width": 220,
+      "height": 796
+    },
+    ".studio-session": {
+      "width": 194,
+      "height": 40
+    }
+  },
+  "shots": [
+    "b-workspace",
+    "b-filter-doc",
+    "b-filter-image",
+    "b-filter-video",
+    "b-media",
+    "b-session-empty"
+  ],
+  "errors": [],
+  "scope": "当前单模块本地UI核验，不替代真实服务验证"
+}

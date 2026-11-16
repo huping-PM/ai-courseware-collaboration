@@ -1,0 +1,9 @@
+/* Only applies when a PG07/PG13 page is placed inside the AI collaboration shell. */
+.ai-workbench-embedded body{min-width:0}
+.ai-workbench-embedded .sidebar,
+.ai-workbench-embedded main>.top,
+.ai-workbench-embedded main>.page-tabs{display:none!important}
+.ai-workbench-embedded main{margin-left:0;min-width:0}
+.ai-workbench-embedded .panel{margin:0;border-radius:0;min-height:100vh;padding-top:0}
+.ai-workbench-embedded .workspace{min-height:calc(100vh - 60px)}
+.ai-workbench-embedded .toast{top:16px}

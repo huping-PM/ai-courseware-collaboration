@@ -1,0 +1,11 @@
+{
+  "artifact_id": "manuscript-001",
+  "artifact_type": "course_manuscript_draft",
+  "version": "0.1.0",
+  "parent_version": null,
+  "task_id": "course-20260929-001",
+  "status": "DRAFT",
+  "evidence_ids": ["SRC-001"],
+  "generated_by": {"skill": "course-manuscript-generation", "mode": "draft"},
+  "files": ["manuscript-draft.md"]
+}

@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-28",
+  "checks": [
+    {
+      "name": "左侧仅本人紧凑任务名称与状态列表",
+      "passed": true
+    },
+    {
+      "name": "文档图片视频筛选竖排且互不重叠",
+      "passed": true
+    },
+    {
+      "name": "doc筛选及二次取消，不切换画布",
+      "passed": true
+    },
+    {
+      "name": "image筛选及二次取消，不切换画布",
+      "passed": true
+    },
+    {
+      "name": "video筛选及二次取消，不切换画布",
+      "passed": true
+    },
+    {
+      "name": "文档图标与名称，图片视频只呈现缩略图",
+      "passed": true
+    },
+    {
+      "name": "成果点击切换且筛掉当前项保留媒体预览",
+      "passed": true
+    },
+    {
+      "name": "未保存任务切换保护、保存切换和无成果空态",
+      "passed": true
+    },
+    {
+      "name": "任务成果、输入草稿和筛选空态隔离",
+      "passed": true
+    },
+    {
+      "name": "任务名称搜索及恢复列表",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "D054本地原型交互，不代表后端实现"
+}

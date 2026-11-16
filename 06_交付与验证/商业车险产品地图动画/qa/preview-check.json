@@ -1,0 +1,374 @@
+{
+  "errors": [],
+  "playState": {
+    "clock": "00:01 / 09:10",
+    "status": "",
+    "audio": [
+      {
+        "id": "voice-P01",
+        "time": 1.224446,
+        "ready": 4
+      }
+    ]
+  },
+  "samples": [
+    {
+      "tag": "entry",
+      "time": 1,
+      "id": "P01",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 10.688333333333334,
+      "id": "P01",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 19.333333,
+      "id": "P01",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 20.433333,
+      "id": "P02",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 31.936666333333335,
+      "id": "P02",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 42.066666999999995,
+      "id": "P02",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 43.166667,
+      "id": "P03",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 54.08333366666666,
+      "id": "P03",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 63.733333,
+      "id": "P03",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 64.83333300000001,
+      "id": "P04",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 76.06166633333333,
+      "id": "P04",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 85.966667,
+      "id": "P04",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 87.066667,
+      "id": "P05",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 91.126667,
+      "id": "P05",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 95.166667,
+      "id": "P05",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 96.266667,
+      "id": "P06",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 114.131667,
+      "id": "P06",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 129.466667,
+      "id": "P06",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 130.566667,
+      "id": "P07",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 152.02500033333334,
+      "id": "P07",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 170.3,
+      "id": "P07",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 171.4,
+      "id": "P08",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 185.47,
+      "id": "P08",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 197.70000000000002,
+      "id": "P08",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 198.8,
+      "id": "P09",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 213.51166666666668,
+      "id": "P09",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 226.266667,
+      "id": "P09",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 227.366667,
+      "id": "P10",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 255.31500033333333,
+      "id": "P10",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 278.9,
+      "id": "P10",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 280,
+      "id": "P11",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 296.9666666666667,
+      "id": "P11",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 311.566667,
+      "id": "P11",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 312.666667,
+      "id": "P12",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 335.13333366666666,
+      "id": "P12",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 354.23333299999996,
+      "id": "P12",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 355.333333,
+      "id": "P13",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 383.2816663333333,
+      "id": "P13",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 406.86666699999995,
+      "id": "P13",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 407.966667,
+      "id": "P14",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 427.90333366666664,
+      "id": "P14",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 444.933333,
+      "id": "P14",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 446.033333,
+      "id": "P15",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 469.5816663333334,
+      "id": "P15",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 489.566667,
+      "id": "P15",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 490.666667,
+      "id": "P16",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 507.9450003333334,
+      "id": "P16",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 522.8,
+      "id": "P16",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "entry",
+      "time": 523.9,
+      "id": "P17",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "middle",
+      "time": 538.1899999999999,
+      "id": "P17",
+      "font": true,
+      "overflows": []
+    },
+    {
+      "tag": "end",
+      "time": 550.6,
+      "id": "P17",
+      "font": true,
+      "overflows": []
+    }
+  ],
+  "reverseSeekPixelIdentical": true
+}

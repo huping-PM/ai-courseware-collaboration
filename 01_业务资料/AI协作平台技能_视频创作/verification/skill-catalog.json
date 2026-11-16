@@ -1,0 +1,62 @@
+[
+  {
+    "name": "video-workflow",
+    "title": "视频创作总流程",
+    "description": "Use when 用户要从原稿制作PPT讲解视频、串联视频创作节点、继续中断的制作任务或确定返工范围时。",
+    "path": "video-workflow/SKILL.md"
+  },
+  {
+    "name": "video-source-read",
+    "title": "视频原稿读取",
+    "description": "Use when 用户要求读取视频原稿、把Word或PDF整理成课件来源文本、提取讲解资料时。",
+    "path": "video-source-read/SKILL.md"
+  },
+  {
+    "name": "video-script-plan",
+    "title": "课件文案与口播编排",
+    "description": "Use when 用户要把原稿拆成讲解页、编写逐页口播、调整课件结构或形成视频制作数据时。",
+    "path": "video-script-plan/SKILL.md"
+  },
+  {
+    "name": "video-image-assets",
+    "title": "课件配图与素材处理",
+    "description": "Use when 用户需要视频课件配图、制作页面插画、整理已有图片或统一图片尺寸与文件体积时。",
+    "path": "video-image-assets/SKILL.md"
+  },
+  {
+    "name": "video-ppt-build",
+    "title": "课件PPT制作",
+    "description": "Use when 用户要把确认后的页面文案制作成可编辑PPT、写入口播备注或重新导出课件演示文件时。",
+    "path": "video-ppt-build/SKILL.md"
+  },
+  {
+    "name": "video-voice-timeline",
+    "title": "课件配音与时间轴",
+    "description": "Use when 用户要给逐页口播配音、换音色、合并分句音频或生成真实时长的视频时间轴时。",
+    "path": "video-voice-timeline/SKILL.md"
+  },
+  {
+    "name": "video-animation-build",
+    "title": "讲解动画页面生成",
+    "description": "Use when 用户要将页面内容与配音时间轴制作成逐项讲解动画，或修改讲解视频的页面视觉时。",
+    "path": "video-animation-build/SKILL.md"
+  },
+  {
+    "name": "video-frame-render",
+    "title": "讲解动画逐帧渲染",
+    "description": "Use when 用户要将确定性HTML动画导出PNG帧序列、重渲染讲解页或检查视频画面缺帧时。",
+    "path": "video-frame-render/SKILL.md"
+  },
+  {
+    "name": "video-compose",
+    "title": "讲解视频合成",
+    "description": "Use when 用户要把课件帧序列与逐页配音合成MP4、重建视频片段或输出无字幕讲解成片时。",
+    "path": "video-compose/SKILL.md"
+  },
+  {
+    "name": "video-quality-check",
+    "title": "讲解视频质量检查",
+    "description": "Use when 用户要求检查视频成片、验收讲解课件、排查缺帧或核对视频交付规格时。",
+    "path": "video-quality-check/SKILL.md"
+  }
+]

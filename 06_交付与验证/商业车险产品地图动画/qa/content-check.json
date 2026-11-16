@@ -1,0 +1,11 @@
+{
+  "manuscript_sha256": "08b8c49e93164ecce51d21d54afdfee31ea904e3380312032c6c9c62d6400e27",
+  "exact_spoken_text_equal": true,
+  "source_chars": 2380,
+  "audio_chars": 2380,
+  "scene_count": 17,
+  "duration": 550.7,
+  "audio_seconds": 536.82,
+  "intro_through_P05_seconds": 95.266667,
+  "audio_clipping": false
+}

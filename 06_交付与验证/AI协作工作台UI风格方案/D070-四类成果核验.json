@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-08",
+  "scope": "本地交互Demo模拟数据；未接入生成服务，音频未模拟实际播放",
+  "checks": [
+    {
+      "name": "成果栏显示文稿、图片、音频、视频四类筛选",
+      "passed": true
+    },
+    {
+      "name": "当前会话展示四张对应成果卡片",
+      "passed": true
+    },
+    {
+      "name": "成果栏高度为118px，可容纳四行紧凑筛选",
+      "passed": true
+    },
+    {
+      "name": "音频筛选仅显示音频成果",
+      "passed": true
+    },
+    {
+      "name": "音频成果可切换至波形与名称展示，未模拟实际播放",
+      "passed": true
+    },
+    {
+      "name": "可从音频切回文稿",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "screenshot": "D070-四类成果.png",
+  "viewport": "1440x900"
+}

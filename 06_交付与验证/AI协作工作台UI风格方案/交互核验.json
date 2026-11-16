@@ -1,0 +1,90 @@
+{
+  "date": "2026-09-28",
+  "results": [
+    {
+      "style": "a",
+      "test": "Markdown编辑、显式保存与预览",
+      "passed": true
+    },
+    {
+      "style": "a",
+      "test": "Enter发送并确认项目技能草稿",
+      "passed": true
+    },
+    {
+      "style": "a",
+      "test": "技能在配置中可见及提示词入口",
+      "passed": true
+    },
+    {
+      "style": "a",
+      "test": "资源搜索空态、清除、音频筛选与引用入口边界",
+      "passed": true
+    },
+    {
+      "style": "a",
+      "test": "未保存离开保护及继续编辑",
+      "passed": true
+    },
+    {
+      "style": "b",
+      "test": "Markdown编辑、显式保存与预览",
+      "passed": true
+    },
+    {
+      "style": "b",
+      "test": "Enter发送并确认项目技能草稿",
+      "passed": true
+    },
+    {
+      "style": "b",
+      "test": "技能在配置中可见及提示词入口",
+      "passed": true
+    },
+    {
+      "style": "b",
+      "test": "资源搜索空态、清除、音频筛选与引用入口边界",
+      "passed": true
+    },
+    {
+      "style": "b",
+      "test": "未保存离开保护及继续编辑",
+      "passed": true
+    },
+    {
+      "style": "c",
+      "test": "Markdown编辑、显式保存与预览",
+      "passed": true
+    },
+    {
+      "style": "c",
+      "test": "Enter发送并确认项目技能草稿",
+      "passed": true
+    },
+    {
+      "style": "c",
+      "test": "技能在配置中可见及提示词入口",
+      "passed": true
+    },
+    {
+      "style": "c",
+      "test": "资源搜索空态、清除、音频筛选与引用入口边界",
+      "passed": true
+    },
+    {
+      "style": "c",
+      "test": "未保存离开保护及继续编辑",
+      "passed": true
+    },
+    {
+      "test": "媒体画布禁用文档操作，返回文稿恢复",
+      "passed": true
+    },
+    {
+      "test": "右上AI协作新页签入口及项目任务上下文",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "scope": "本地UI模拟，非真实AI或权限验收"
+}

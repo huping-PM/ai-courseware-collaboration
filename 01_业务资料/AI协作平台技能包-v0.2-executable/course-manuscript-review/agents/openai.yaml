@@ -1,0 +1,4 @@
+interface:
+  display_name: "课程文稿审核（试用）"
+  short_description: "按课程类型与统一标准审查课程文稿"
+  default_prompt: "使用 $course-manuscript-review 审核这份课程文稿，并给出可执行修改意见。"

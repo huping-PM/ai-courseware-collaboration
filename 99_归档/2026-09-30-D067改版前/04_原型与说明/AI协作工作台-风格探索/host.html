@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>图片资源 · 内部数据资产管理系统</title>
+  <link rel="stylesheet" href="host.css">
+</head>
+<body>
+  <aside class="side" aria-label="系统导航">
+    <div class="side-brand">内部数据资产管理系统</div>
+    <nav class="side-menu">
+      <button class="side-item active" type="button" data-module="图片资源" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><circle cx="9" cy="9" r="1.4"/><path d="m4 17 5-5 3 3 3-3 5 5"/></svg>图片资源</button>
+      <button class="side-item" type="button" data-module="文件资源集"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h18v12H3zM5 5h14v3M8 12h8"/></svg>文件资源集</button>
+      <button class="side-item" type="button" data-module="课程资源"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 3v18M11 7h6M11 11h6"/></svg>课程资源<svg class="side-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button>
+      <button class="side-item" type="button" data-module="公告管理"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg>公告管理</button>
+      <button class="side-item" type="button" data-module="审核中心"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg>审核中心<span class="nav-badge">待审核0</span></button>
+    </nav>
+  </aside>
+  <div class="system">
+    <header class="topbar">
+      <button class="plain-icon" id="collapseNav" type="button" aria-label="收起导航" title="收起导航"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      <div class="breadcrumb"><strong>项目管理</strong><span>›</span><span id="breadcrumbModule">图片资源</span><span>›</span><span id="breadcrumbPage">图片资源</span></div>
+      <div class="top-spacer"></div>
+      <a id="aiEntry" class="ai-entry" href="../../06_交付与验证/AI协作工作台UI风格方案/交互Demo.html" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 2.3 7.7L22 12l-7.7 2.3L12 22l-2.3-7.7L2 12l7.7-2.3L12 2Z"/></svg>AI课件协作</a>
+      <button class="plain-icon notification" type="button" aria-label="通知"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9M10 21h4"/></svg><i></i></button>
+      <button class="account" type="button" aria-label="用户菜单"><span class="account-avatar"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-5 3-8 8-8s8 3 8 8"/></svg></span><span>胡平</span><svg class="account-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 9 5 5 5-5"/></svg></button>
+    </header>
+    <div class="tabbar"><span class="open-tab"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="1"/><path d="m4 17 5-5 3 3 3-3 5 5"/></svg><span id="tabTitle">图片资源</span><button id="closeTab" type="button" aria-label="关闭当前页签">×</button></span><span class="tabbar-spacer"></span><button class="plain-icon" type="button" aria-label="应用入口"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></button></div>
+    <main class="content">
+      <section class="image-workspace" id="imageWorkspace" aria-label="图片资源">
+        <aside class="category-panel">
+          <div class="category-heading"><strong>分类</strong><button class="text-action" type="button" id="addCategory">添加</button></div>
+          <label class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/></svg><input id="categorySearch" type="search" placeholder="请输入分类名称" aria-label="搜索分类"></label>
+          <div class="category-list" id="categoryList"><button class="category active" type="button" data-category="默认分类">默认分类<span>(3)</span></button><button class="category" type="button" data-category="测试">测试<span>(0)</span></button></div>
+        </aside>
+        <section class="resources-panel">
+          <div class="query-row"><label>文件名称<input id="fileSearch" type="search" placeholder="请输入文件名称"></label><label>状态<select id="statusFilter"><option value="全部">全部</option><option value="正常">正常</option><option value="处理中">处理中</option></select></label><button class="primary" id="searchButton" type="button">高级搜索</button><button id="resetButton" type="button">重置</button></div>
+          <div class="operations"><div class="selection-count" id="selectionCount" aria-live="polite"></div><div class="operation-actions"><button class="primary" id="uploadButton" type="button">上传图片</button><button class="primary" id="batchImportButton" type="button">批量导入</button><button class="primary" id="batchMoveButton" type="button">批量移动</button><button class="danger" id="batchDeleteButton" type="button">批量删除</button><span class="view-divider"></span><button class="plain-icon" id="gridView" type="button" aria-label="网格视图" disabled><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></button><button class="plain-icon selected-view" id="listView" type="button" aria-label="列表视图"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13M3 6h1M3 12h1M3 18h1"/></svg></button></div></div>
+          <div class="table-scroll"><table><thead><tr><th class="check-cell"><input id="selectAll" type="checkbox" aria-label="全选当前列表"></th><th class="name-col">文件名称</th><th>文件路径</th><th>文件大小</th><th>文件格式</th><th>文件来源</th><th>上传人</th><th>上传时间</th><th>关键字</th><th>状态</th><th class="actions-col">操作</th></tr></thead><tbody id="resourceRows"></tbody></table><div class="empty-space"></div></div>
+          <div class="pagination"><span id="totalCount">共 3 条</span><select aria-label="每页条数"><option>30条/页</option><option>50条/页</option></select><button type="button" aria-label="上一页" disabled>‹</button><b>1</b><button type="button" aria-label="下一页" disabled>›</button><span>前往</span><input type="number" value="1" min="1" max="1" aria-label="页码"><span>页</span></div>
+        </section>
+      </section>
+      <section class="other-module" id="otherModule" hidden><h1 id="otherTitle"></h1><p>暂无数据</p></section>
+    </main>
+  </div>
+  <input id="filePicker" type="file" accept="image/*" multiple hidden>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script src="host.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "project_sha256": "7eaa6609e1e880cd546357c59308e81915831d1b5873c8292694994117144f70",
+  "timeline_sha256": "fd5d4c7f7a0a6b2f9102699e9a7445b7eeb03ec6379aba51a22a2e1e35a778a8",
+  "pages_manifest_sha256": "0f14da20e303d671ce09cdc520983c40514804e1a44c7a0260a037da888c257a",
+  "width": 1280,
+  "height": 720,
+  "fps": 25,
+  "pages": [
+    {
+      "id": "p01",
+      "directory": "p01",
+      "frames": 30,
+      "duration": 1.2,
+      "audio": "audio/p01.wav"
+    },
+    {
+      "id": "p02",
+      "directory": "p02",
+      "frames": 30,
+      "duration": 1.2,
+      "audio": "audio/p02.wav"
+    }
+  ]
+}

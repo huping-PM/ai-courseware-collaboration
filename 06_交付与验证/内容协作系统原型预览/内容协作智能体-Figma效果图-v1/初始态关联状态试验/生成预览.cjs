@@ -1,0 +1,15 @@
+const fs=require('fs'),path=require('path');
+const root=path.resolve(__dirname,'../../../..');
+const md=fs.readFileSync(path.join(root,'03_功能设计/内容协作智能体-需求说明.md'),'utf8');
+const part=md.split('## 初始态关联状态试验')[1].split('## 评审与同步边界')[0];
+const notes=[...part.matchAll(/^### (S\d+) (.+)\n([\s\S]*?)(?=^### |$(?![\s\S]))/gm)].map(x=>({key:x[1],name:x[2],text:x[3].trim()}));
+const data=JSON.parse(fs.readFileSync(path.join(__dirname,'状态与连线核验.json'),'utf8'));
+const esc=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+const design='https://www.figma.com/design/'+data.fileKey+'?node-id='+data.sectionId.replace(':','-');
+const play='https://www.figma.com/proto/'+data.fileKey+'?node-id=43-332&starting-point-node-id=43%3A332';
+const rows=notes.map(n=>{const s=data.states.find(x=>x.key===n.key);return `<section id="${n.key}"><h2>${n.key} ${n.name} <a href="https://www.figma.com/design/${data.fileKey}?node-id=${s.id.replace(':','-')}">画板 ↗</a></h2><div class="row"><img src="效果图/${n.key}.png" width="1280" height="720" alt="${n.name}"><aside><h3>需求说明 · ${n.key}</h3>${n.text.split('\n').map(t=>/^\d/.test(t)?'<h4>'+esc(t)+'</h4>':'<p>'+esc(t)+'</p>').join('')}</aside></div></section>`}).join('');
+fs.writeFileSync(path.join(__dirname,'试验预览.html'),`<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>初始态关联状态试验</title><style>*{box-sizing:border-box}body{margin:32px;background:#eef0f4;font:14px/1.8 'Microsoft YaHei',sans-serif;color:#303133}a{color:#1672bd;text-decoration:none}header{max-width:1120px;margin-bottom:32px}nav{display:flex;gap:20px;flex-wrap:wrap}.row{display:flex;align-items:flex-start;gap:28px;width:max-content}img{display:block;flex:none;width:1280px;height:720px}aside{flex:none;width:460px;padding:24px;background:#fff2a8;color:#302b1b;font-size:16px;line-height:26px}h3{font-size:20px;margin:0 0 16px}h4{font-size:16px;margin:0 0 16px}aside p{margin:0 0 16px}section{margin-bottom:48px;width:max-content}section>h2{font-size:18px}section>h2 a{font-size:13px;margin-left:16px}</style><header><h1>初始态关联状态 · 一轮试验</h1><p><a href="${design}">Figma图文分区 ↗</a> · <a href="${play}">Figma点击演示 ↗</a> · <a href="../../../../03_功能设计/内容协作智能体-需求说明.md">统一需求正文</a></p><p>测试路线：右下模型 → deepseek-flash → 选择资源 → 勾选培训手册 → 确定 → 点击“为新员工制作安全培训视频”。本轮7状态、14条连线，只覆盖这条固定路线及取消/取消勾选分支；其余入口、真实键盘输入、查询和生成不在此演示范围。</p><p>设计查看保留右侧说明；Figma播放仅呈现业务画板。连线、尺寸、文案和导出图已核对；自动读取Figma播放页超时，实际播放点击仍待人工复核。此处为静态图文索引。</p><nav>${notes.map(n=>`<a href="#${n.key}">${n.key} ${n.name}</a>`).join('')}</nav></header>${rows}</html>`);
+const reached=new Set(['S00']);let changed=true;while(changed){changed=false;for(const e of data.edges)if(reached.has(e.source)&&!reached.has(e.destination)){reached.add(e.destination);changed=true;}}
+if(reached.size!==7)throw Error('流程不可达');
+for(const s of data.states){const p=fs.readFileSync(path.join(__dirname,'效果图',s.key+'.png'));if(p.readUInt32BE(16)!==1280||p.readUInt32BE(20)!==720)throw Error(s.key+'尺寸不正确');}
+console.log(JSON.stringify({states:notes.length,reachable:reached.size,edges:data.edges.length,images:7,notesMatch:data.results.every(r=>r.textMatches),notesOutside:data.results.every(r=>r.noteOutsideFrame)}));

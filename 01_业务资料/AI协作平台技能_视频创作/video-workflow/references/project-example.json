@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "title": "文件版本管理入门（结构示例）",
+  "language": "zh-CN",
+  "canvas": {
+    "width": 1280,
+    "height": 720,
+    "fps": 25
+  },
+  "style": {
+    "font": "Microsoft YaHei",
+    "background": "#F7FBF8",
+    "foreground": "#0F3D2E",
+    "accent": "#34C77B"
+  },
+  "audio": {
+    "sample_rate": 24000,
+    "pause": 0.25,
+    "tail": 0.3
+  },
+  "pages": [
+    {
+      "id": "p01",
+      "title": "先确认版本再开始修改",
+      "bullets": [
+        {
+          "id": "b01",
+          "text": "确认输入文件与修改范围",
+          "segment_id": "s01"
+        },
+        {
+          "id": "b02",
+          "text": "保留原文件，使用新的输出目录",
+          "segment_id": "s02"
+        }
+      ],
+      "segments": [
+        {
+          "id": "s01",
+          "text": "修改前，先确认输入文件和本次需要调整的范围。"
+        },
+        {
+          "id": "s02",
+          "text": "保留原文件，将结果保存到新的输出目录。"
+        }
+      ],
+      "source_refs": [
+        "用户提供的版本管理规则，示例需替换"
+      ]
+    }
+  ]
+}

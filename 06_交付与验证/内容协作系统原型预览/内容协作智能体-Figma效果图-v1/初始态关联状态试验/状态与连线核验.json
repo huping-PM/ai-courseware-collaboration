@@ -1,0 +1,219 @@
+{
+  "fileKey": "EjC3IegY9kqwAAmg5M5mrR",
+  "sectionId": "43:331",
+  "states": [
+    {
+      "key": "S00",
+      "name": "默认初始态",
+      "id": "43:332"
+    },
+    {
+      "key": "S01",
+      "name": "模型菜单展开",
+      "id": "43:442"
+    },
+    {
+      "key": "S02",
+      "name": "模型已切换",
+      "id": "43:552"
+    },
+    {
+      "key": "S03",
+      "name": "资源选择默认态",
+      "id": "43:662"
+    },
+    {
+      "key": "S04",
+      "name": "资源已勾选",
+      "id": "43:772"
+    },
+    {
+      "key": "S05",
+      "name": "依据已回填",
+      "id": "43:882"
+    },
+    {
+      "key": "S06",
+      "name": "制作要求已填写",
+      "id": "43:992"
+    }
+  ],
+  "results": [
+    {
+      "state": "S00",
+      "frameId": "43:332",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S01",
+      "frameId": "43:442",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S02",
+      "frameId": "43:552",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S03",
+      "frameId": "43:662",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S04",
+      "frameId": "43:772",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S05",
+      "frameId": "43:882",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    },
+    {
+      "state": "S06",
+      "frameId": "43:992",
+      "width": 1280,
+      "height": 720,
+      "noteOutsideFrame": true,
+      "noteOnRight": true,
+      "noteTopAligned": true,
+      "textMatches": true,
+      "textFits": true,
+      "navInstances": 1
+    }
+  ],
+  "edges": [
+    {
+      "source": "S00",
+      "nodeId": "43:404",
+      "name": "Button - 选择模型",
+      "destination": "S01"
+    },
+    {
+      "source": "S01",
+      "nodeId": "43:514",
+      "name": "Button - 选择模型",
+      "destination": "S00"
+    },
+    {
+      "source": "S01",
+      "nodeId": "44:550",
+      "name": "选择 qwen3.7-plus",
+      "destination": "S00"
+    },
+    {
+      "source": "S01",
+      "nodeId": "44:555",
+      "name": "选择 deepseek-flash",
+      "destination": "S02"
+    },
+    {
+      "source": "S02",
+      "nodeId": "43:615",
+      "name": "Button",
+      "destination": "S03"
+    },
+    {
+      "source": "S03",
+      "nodeId": "46:552",
+      "name": "关闭选择器",
+      "destination": "S02"
+    },
+    {
+      "source": "S03",
+      "nodeId": "46:572",
+      "name": "勾选培训手册",
+      "destination": "S04"
+    },
+    {
+      "source": "S03",
+      "nodeId": "46:577",
+      "name": "取消",
+      "destination": "S02"
+    },
+    {
+      "source": "S03",
+      "nodeId": "46:579",
+      "name": "确定",
+      "destination": "S02"
+    },
+    {
+      "source": "S04",
+      "nodeId": "46:589",
+      "name": "关闭选择器",
+      "destination": "S02"
+    },
+    {
+      "source": "S04",
+      "nodeId": "46:609",
+      "name": "勾选培训手册",
+      "destination": "S03"
+    },
+    {
+      "source": "S04",
+      "nodeId": "46:616",
+      "name": "取消",
+      "destination": "S02"
+    },
+    {
+      "source": "S04",
+      "nodeId": "46:618",
+      "name": "确定",
+      "destination": "S05"
+    },
+    {
+      "source": "S05",
+      "nodeId": "43:926",
+      "name": "Button",
+      "destination": "S06"
+    }
+  ],
+  "flows": [
+    {
+      "nodeId": "43:332",
+      "name": "初始态试验 · 模型→资源→填写要求"
+    }
+  ]
+}

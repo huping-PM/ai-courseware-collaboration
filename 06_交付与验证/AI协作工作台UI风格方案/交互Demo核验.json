@@ -1,0 +1,60 @@
+{
+  "date": "2026-09-28",
+  "checks": [
+    {
+      "name": "Demo无场景栏、说明栏与底栏，工作台占满视口",
+      "passed": true
+    },
+    {
+      "name": "工作台顶栏无返回方案总览",
+      "passed": true
+    },
+    {
+      "name": "原工作区尺寸保持：左220、对话400、成果94",
+      "passed": true
+    },
+    {
+      "name": "成果筛选与二次取消",
+      "passed": true
+    },
+    {
+      "name": "图片、视频和文档画布可切换",
+      "passed": true
+    },
+    {
+      "name": "参考资料搜索与引用",
+      "passed": true
+    },
+    {
+      "name": "技能选择弹窗",
+      "passed": true
+    },
+    {
+      "name": "技能草稿人工确认后可选",
+      "passed": true
+    },
+    {
+      "name": "执行过程可展开",
+      "passed": true
+    },
+    {
+      "name": "Markdown编辑、保存和预览",
+      "passed": true
+    },
+    {
+      "name": "新建独立空会话",
+      "passed": true
+    },
+    {
+      "name": "会话搜索与恢复",
+      "passed": true
+    },
+    {
+      "name": "Shift+Enter换行及输入法防误发",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "viewport": "1440x900",
+  "scope": "D059全屏本地交互Demo，模拟数据；不证明真实模型和后端服务"
+}
